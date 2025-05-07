@@ -44,6 +44,10 @@ INSTALLED_APPS = [
     
     'main',
     'goods',
+    'search',
+    'favorites',
+    'cart',
+    'users',
     
 ]
 
@@ -133,7 +137,8 @@ STATICFILES_DIRS = [
 
 MEDIA_URL = 'media/'
 
-MEDIA_ROOT = BASE_DIR / 'media'
+MEDIA_ROOT = BASE_DIR/'media'
+
 
 INTERNAL_IPS = [
     # ...
@@ -146,3 +151,5 @@ INTERNAL_IPS = [
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+LOGIN_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/'

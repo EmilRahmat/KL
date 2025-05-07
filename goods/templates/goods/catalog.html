@@ -1,107 +1,200 @@
 {% extends "main/base.html" %}
 {% load static %}
 
-
 {% block content %}
-<div class="row">
-    <!-- Форма фильтров -->
-    <div class="dropdown mb-2">
-        <button class="btn btn-secondary dropdown-toggle btn-dark" type="button" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            Фильтры
-        </button>
+<div class="container-fluid px-0">
+  <div class="row gx-0">
+    <!-- Боковая панель -->
+    <div class="col-lg-3 col-md-4 bg-light border-end min-vh-100 py-4 px-3">
 
-        <form action="" method="get" class="dropdown-menu bg-dark" data-bs-theme="dark">
-            <div class="form-check text-white mx-3">
-                <input class="form-check-input" type="checkbox" name="on_sale" id="flexCheckDefault" value="on">
-                <input type="hidden" name="q" value="request.GET.q">
-                <label class="form-check-label" for="flexCheckDefault">
-                    Товары по акции
-                </label>
-            </div>
-            <p class="text-white mx-3 mt-3">Сортировать:</p>
-            <div class="form-check text-white mx-3">
-                <input class="form-check-input" type="radio" name="order_by" id="flexRadioDefault1" value="default" checked>
-                <label class="form-check-label" for="flexRadioDefault1">
-                    По умолчанию
-                </label>
-            </div>
-            <div class="form-check text-white mx-3">
-                <input class="form-check-input" type="radio" name="order_by" id="flexRadioDefault2" value="price">
-                <label class="form-check-label" for="flexRadioDefault2">
-                    От дешевых к дорогим
-                </label>
-            </div>
-            <div class="form-check text-white mx-3">
-                <input class="form-check-input" type="radio" name="order_by" id="flexRadioDefault3" value="-price">
-                <label class="form-check-label" for="flexRadioDefault3">
-                    От дорогих к дешевым
-                </label>
-            </div>
-            <button type="submit" class="btn btn-primary mx-3 mt-3">Применить</button>
-        </form>
-    </div>
-    {% for product in goods %}
-        <!-- Карта товара -->
-        <div class="col-lg-4 col-md-6 p-4">
-            <div class="card border-primary rounded custom-shadow">
-                {% if product.image %}
-                    <img src="{{ product.image.url }}" class="card-img-top" alt="{{ product.name }}">
-                {% else %}
-                    <img src="{% static 'deps\images\Not found image.png' %}" class="card-img-top" alt="...">
-                {% endif %}
-                
-                <div class="card-body">
-                    <a href="{% url "catalog:product" product.slug %}">
-                        <p class="card-title">{{ product.name }}</p>
+      <!-- Категории -->
+      <div class="mb-4">
+        <h5 class="mb-3 text-dark fw-semibold">Категории</h5>
+        <div style="max-height: 300px; overflow-y: auto;" id="category-list" class="filter-block">
+          <ul class="list-group list-group-flush">
+            {% for category in all_categories %}
+              {% if not category.parent %}
+                <li class="list-group-item border-0 ps-0">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <a href="{{ category.get_absolute_url }}"
+                       class="text-decoration-none text-dark d-block {% if category.slug == category_slug %}fw-bold text-primary{% endif %}">
+                      {{ category.name }}
                     </a>
-                    <p class="card-text text-truncate">{{ prudoct.description }}</p>
-                    <p class="product_id">id: {{ product.display_id }}</p>
-                    <div class="d-flex justify-content-between">
-                        {% if  product.discount %}
-                        <p><s>{{product.price}}</s> р.</p>
-                        <p><strong>{{ product.sell_price }}</strong></p>
-                        <span class="badge bg-warning text-dark">{{ product.discount }}</span> 
-                        {% else %}
-                        <p><strong>{{ product.price }}</strong></p>
-                        {% endif %}
-                        
-                        <a href="#" class="btn add-to-cart">
-                            <img class="mx-1" src="{% static "deps/icons/cart-plus.svg" %}" alt="Catalog Icon"
-                                width="32" height="32">
-                        </a>
-                    </div>
-                </div>
+                    {% if category.subcategory.all %}
+                      <button class="btn btn-sm btn-link text-dark p-0" type="button"
+                              onclick="toggleSubcategories('{{ category.id }}')">
+                        <i class="bi bi-chevron-down" id="icon-{{ category.id }}"></i>
+                      </button>
+                    {% endif %}
+                  </div>
+                  {% if category.subcategory.all %}
+                    <ul class="list-group ms-3 mt-2 collapse" id="subcat-{{ category.id }}">
+                      {% for subcat in category.subcategory.all %}
+                        <li class="list-group-item border-0 ps-0 {% if subcat.slug == category_slug %}fw-bold text-primary{% endif %}">
+                          <a href="{{ subcat.get_absolute_url }}" class="text-decoration-none text-dark d-block">
+                            {{ subcat.name }}
+                          </a>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  {% endif %}
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+
+      <!-- Фильтры -->
+      <div class="filter-panel">
+      <form method="get">
+        <!-- Размер -->
+        <div class="filter-block mb-4">
+          <label class="form-label fw-bold">Размер</label>
+          {% for size in sizes %}
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="size" value="{{ size }}"
+                     id="size_{{ forloop.counter }}" {% if size in selected_sizes %}checked{% endif %}>
+              <label class="form-check-label" for="size_{{ forloop.counter }}">{{ size }}</label>
             </div>
+          {% endfor %}
         </div>
-    {% endfor %}
-    
 
-</div>
-<!-- Пагинация -->
-<nav aria-label="Page navigation example">
-    <ul class="pagination justify-content-center my-4">
-        <div class="custom-shadow d-flex">
-            <li class="page-item disabled">
-              <a class="page-link">Previous</a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">1</a></li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item">
-              <a class="page-link" href="#">Next</a>
-            </li>
+        <!-- Цена -->
+        <div class="filter-block mb-4">
+          <label for="min_price" class="form-label fw-bold">Цена от</label>
+          <input type="number" name="min_price" class="form-control" style="color: black; background-color: white;" value="{{ request.GET.min_price }}">
+          <label for="max_price" class="form-label mt-2 fw-bold">до</label>
+          <input type="number" name="max_price" class="form-control" style="color: black; background-color: white;" value="{{ request.GET.max_price }}">
         </div>
-    </ul>
-</nav>
-{% endblock content %}
 
+        <!-- Сезон -->
+        <div class="filter-block mb-4">
+          <label class="form-label fw-bold">Сезон</label>
+          <div class="d-flex flex-wrap gap-2">
+            {% comment %} {% for season_option in "Зима,Весна,Лето,Осень".split(',') %}
+              <div>
+                <input type="radio" class="btn-check" name="season" id="season_{{ forloop.counter }}"
+                       value="{{ season_option }}" {% if request.GET.season == season_option %}checked{% endif %}>
+                <label class="btn btn-outline-primary btn-sm" for="season_{{ forloop.counter }}">{{ season_option }}</label>
+              </div>
+            {% endfor %} {% endcomment %}
+          </div>
+        </div>
 
-{% block footer %}
-<footer class="py-4 bg-dark">
-    <div class="container">
-        <p class="m-0 text-center text-white">KidsLook &copy; Магазин детской одежды г. Казань </p>
+        <!-- Акции -->
+        <div class="form-check mb-3 ps-2">
+          <input class="form-check-input" type="checkbox" name="on_sale" id="on_sale" value="on"
+                 {% if request.GET.on_sale %}checked{% endif %}>
+          <label class="form-check-label" for="on_sale">Товары по акции</label>
+        </div>
+
+        <!-- Кнопки -->
+        <div class="filter-actions">
+          <button type="submit" class="btn btn-success fw-semibold w-100">Применить</button>
+        </div>
+      </form>
     </div>
-</footer>
-{% endblock footer %}
+  </div>
+    <!-- Основной контент -->
+    <div class="col-lg-9 col-md-8 py-4 px-3">
+      <div class="row">
+        {% for product in goods %}
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <img src="{{ product.get_first_photo }}" class="card-img-top" alt="{{ product.name }}">
+              <div class="card-body d-flex flex-column">
+                <a href="{{ product.get_absolute_url }}" class="text-dark text-decoration-none">
+                  <h6 class="card-title">{{ product.name }}</h6>
+                </a>
+                <p class="small text-muted">{{ product.description|truncatewords:10 }}</p>
 
+                <button class="btn btn-outline-secondary btn-sm mb-2" type="button"
+                        onclick="toggleSizes({{ product.id }})">
+                  Наличие размеров
+                </button>
+                <ul class="list-unstyled collapse" id="sizes-{{ product.id }}">
+                  {% for var in product.get_all_variation %}
+                    {% if var.quantity > 0 %}
+                      <li><small>{{ var.size }} – в наличии</small></li>
+                    {% endif %}
+                  {% endfor %}
+                </ul>
+
+                <div class="mt-auto">
+                  {% if product.discount %}
+                    <p class="mb-1">
+                      <s class="text-muted">{{ product.price }} ₽</s>
+                      <strong class="text-danger">{{ product.sell_price }} ₽</strong>
+                      <span class="badge bg-warning text-dark ms-1">{{ product.discount }}%</span>
+                    </p>
+                  {% else %}
+                    <p class="mb-1"><strong>{{ product.price }} ₽</strong></p>
+                  {% endif %}
+                  <a href="#" class="btn btn-outline-primary w-100 mt-2">
+                    <img src="{% static 'deps/icons/cart-plus.svg' %}" width="20" class="me-2"> В корзину
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+
+      <!-- Пагинация -->
+      {% if is_paginated %}
+        <nav class="d-flex justify-content-center">
+          <ul class="pagination">
+            {% if page_obj.has_previous %}
+              <li class="page-item">
+                <a class="page-link" href="?page={{ page_obj.previous_page_number }}">Назад</a>
+              </li>
+            {% endif %}
+            {% for page in paginator.page_range %}
+              {% if page >= page_obj.number|add:"-2" and page <= page_obj.number|add:"2" %}
+                <li class="page-item {% if page == page_obj.number %}active{% endif %}">
+                  <a class="page-link" href="?page={{ page }}">{{ page }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+            {% if page_obj.has_next %}
+              <li class="page-item">
+                <a class="page-link" href="?page={{ page_obj.next_page_number }}">Вперёд</a>
+              </li>
+            {% endif %}
+          </ul>
+        </nav>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<script>
+  function toggleSizes(productId) {
+    const list = document.getElementById(`sizes-${productId}`);
+    list.classList.toggle('collapse');
+  }
+
+  function toggleSubcategories(categoryId) {
+    const list = document.getElementById(`subcat-${categoryId}`);
+    const icon = document.getElementById(`icon-${categoryId}`);
+    list.classList.toggle('collapse');
+    icon.classList.toggle('bi-chevron-down');
+    icon.classList.toggle('bi-chevron-up');
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const currentSlug = "{{ category_slug }}";
+    {% for category in all_categories %}
+      {% for subcat in category.subcategory.all %}
+        {% if subcat.slug == category_slug %}
+          toggleSubcategories("{{ category.id }}");
+        {% endif %}
+      {% endfor %}
+      {% if category.slug == category_slug and category.subcategory.all %}
+        toggleSubcategories("{{ category.id }}");
+      {% endif %}
+    {% endfor %}
+  });
+</script>
+{% endblock content %}

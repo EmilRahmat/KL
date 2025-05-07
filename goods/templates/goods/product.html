@@ -1,44 +1,155 @@
 {% extends "main/base.html" %}
 {% load static %}
 
-
 {% block content %}
 <div class="container mt-5">
-    <div class="card mb-4 custom-shadow">
-        <div class="row">
-            <!-- Миниатюры -->
-            <div class="col-md-4">
-                <img src="{{ product.image.url }}"
-                    class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#imageModal1">
-            </div>
-            <div class="col-md-4 ">
-                <p class="product_id mt-3">id: {{product.display_id}}</p>
-            </div>
-            <!-- Увеличить изображение в модальном окне -->
-            <div class="modal fade" id="imageModal1" tabindex="-1"
-                aria-labelledby="imageModal1Label" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="imageModal1Label">{{ product.name }}</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                aria-label="Закрыть"></button>
-                        </div>
-                        <div class="modal-body">
-                            <img src="{{ product.image.url }}"
-                                class="img-fluid" alt="Изображение 1">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Описание товара -->
-        <div class="card-body">
-            <p class="card-text">Цена: <strong>{{ product.sell_price }} р.</strong></p>
-            <h5 class="card-title">{{ product.name }}</h5>
-            <p class="card-text">{{ product.description }}</p>
-            <a href="#" class="btn btn-dark add-to-cart">Добавить в корзину</a>
-        </div>
+
+  <!-- Основная секция с товаром -->
+  <div class="row mb-5">
+    <!-- Галерея товара -->
+    <div class="col-md-6">
+      <div class="card shadow-sm mb-3 border-light">
+        <img id="main-image" src="{{ product.get_first_photo }}" class="img-fluid rounded-3" alt="Основное изображение" data-bs-toggle="modal" data-bs-target="#imageModal">
+      </div>
+      <div class="d-flex flex-wrap gap-2">
+        {% for img in product.images.all %}
+          <img src="{{ img.image.url }}" class="img-thumbnail rounded-3" style="width: 80px; height: 80px; object-fit: cover; cursor: pointer;" alt="Миниатюра" onclick="changeImage('{{ img.image.url }}')">
+        {% endfor %}
+      </div>
     </div>
+
+    <!-- Информация о товаре -->
+    <div class="col-md-6">
+      <div class="card p-4 shadow-sm border-light">
+        <h3 class="mb-3 text-dark">{{ product.name }}</h3>
+        <p class="text-muted mb-3">{{ product.description }}</p>
+        <h4 class="text-dark fw-bold mb-3">Цена: <span class="text-black">{{ product.sell_price }}</span></h4>
+
+        <!-- Размеры товара -->
+        <div class="mb-3">
+          <label class="form-label fw-semibold text-black">Размер:</label>
+          
+          <!-- Выпадающий список -->
+          <select id="size-select" class="form-select" aria-label="Выбор размера">
+            <option selected disabled>Выберите размер</option>
+          
+            {% for i in available_variations %}
+              <option value="{{ i.size }}" data-available="true">{{ i.size }}</option>
+            {% endfor %}
+          
+            {% for i in unavailable_variations %}
+              <option value="{{ i.size }}" data-available="false">{{ i.size }} (ожидается)</option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <!-- Кнопка добавления в корзину или уведомление о поступлении -->
+        <div id="notify-container" class="mt-3" style="display: none;">
+          <form id="notify-form" method="post">
+            {% csrf_token %}
+            <input type="hidden" name="size" id="notify-size">
+            
+            <div class="mb-2">
+              <input type="email" name="email" class= class="form-control text-dark" placeholder="Ваш email" required>
+            </div>
+            
+            <button type="submit" class="btn btn-outline-secondary w-100">Сообщить о поступлении</button>
+          </form>
+        </div>
+
+        <div id="cart-container">
+          <a href="#" class="btn btn-dark w-100 mt-3 shadow-sm">Добавить в корзину</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Рекомендованные товары -->
+  <h4 class="text-center text-dark mb-4">Может понравиться</h4>
+  <div class="row g-3">
+    {% for ext in ext_product %}
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <div class="card h-100 shadow-sm border-light">
+          <img src="{{ ext.get_first_photo }}" class="card-img-top rounded-3" alt="{{ ext.name }}">
+          <div class="card-body text-dark">
+            <h6 class="card-title mb-2">{{ ext.name }}</h6>
+            <p class="card-text mb-2 text-muted">Цена: {{ ext.price }}</p>
+            <a href="{{ ext.get_absolute_url }}" class="btn btn-outline-primary btn-sm w-100">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
 </div>
-{% endblock content %}
+
+<!-- Модальное окно для полного изображения -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img id="modal-image" src="{{ product.get_first_photo }}" class="img-fluid rounded-3" alt="Фото товара">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Функция для смены основного изображения
+  function changeImage(url) {
+    document.getElementById('main-image').src = url;
+    document.getElementById('modal-image').src = url;
+  }
+
+  const sizeSelect = document.getElementById('size-select');
+  const notifyContainer = document.getElementById('notify-container');
+  const cartContainer = document.getElementById('cart-container');
+  const notifySizeInput = document.getElementById('notify-size');
+
+  sizeSelect.addEventListener('change', function() {
+    const selectedOption = this.options[this.selectedIndex];
+    const isAvailable = selectedOption.getAttribute('data-available') === 'true';
+    const selectedSize = selectedOption.value;
+
+    if (isAvailable) {
+      cartContainer.style.display = 'block';
+      notifyContainer.style.display = 'none';
+    } else {
+      cartContainer.style.display = 'none';
+      notifyContainer.style.display = 'block';
+      notifySizeInput.value = selectedSize;
+    }
+  });
+
+  document.getElementById('notify-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const formData = new FormData(this);
+
+    fetch("{% url 'goods:notify_restock' product.id %}", {
+      method: 'POST',
+      headers: {
+        'X-CSRFToken': formData.get('csrfmiddlewaretoken')
+      },
+      body: formData
+    })
+    .then(response => {
+      if (response.ok) {
+        alert("Вы подписались на уведомление о поступлении!");
+      } else {
+        alert("Ошибка при подписке. Попробуйте позже.");
+      }
+    })
+    .catch(error => {
+      alert("Ошибка сети. Попробуйте позже.");
+    });
+  });
+</script>
+
+{% endblock %}

@@ -36,3 +36,437 @@ body {
   border-radius: 15px;
   font-size: 0.7rem;
 }
+
+.fixed-element {
+  position: fixed; 
+  max-height: 80vh; 
+  overflow-y: auto;
+}
+
+.marginBottom-0 {margin-bottom:0;}
+.dropdown-submenu{
+    position:relative;}
+.dropdown-submenu>.dropdown-menu{
+    top:0;
+    left:100%;
+    margin-top:-6px;
+    margin-left:-1px;
+    -webkit-border-radius:0 6px 6px 6px;
+    -moz-border-radius:0 6px 6px 6px;
+    border-radius:0 6px 6px 6px;}
+.dropdown-submenu>a:after{
+    display:block;
+    content:" ";
+    float:right;
+    width:0;
+    height:0;
+    border-color:transparent;
+    border-style:solid;
+    border-width:5px 0 5px 5px;
+    border-left-color:#cccccc;
+    margin-top:5px;
+    margin-right:-10px;}
+.dropdown-submenu:hover>a:after{
+    border-left-color:#555;}
+.dropdown-submenu.pull-left{float:none;}
+.dropdown-submenu.pull-left>.dropdown-menu{
+    left:-100%;
+    margin-left:10px;
+    -webkit-border-radius:6px 0 6px 6px;
+    -moz-border-radius:6px 0 6px 6px;
+    border-radius:6px 0 6px 6px;}
+    .navbar {
+      background-color: #1c1c1c !important;
+      border-bottom: 1px solid #333;
+    }
+    
+    .navbar .navbar-brand,
+    .navbar .nav-link {
+      color: #ffffff !important;
+      transition: color 0.3s ease-in-out;
+    }
+    
+    .navbar .navbar-brand:hover,
+    .navbar .nav-link:hover {
+      color: #00ffcc !important;
+    }
+
+    .btn-custom {
+      background-color: transparent;
+      border: none;
+      color: white;
+      font-weight: 500;
+      padding: 6px 12px;
+      transition: color 0.3s ease, background-color 0.3s ease;
+    }
+    
+    .btn-custom:hover {
+      color: #00ffcc;
+      background-color: rgba(255, 255, 255, 0.05);
+    }
+    
+    .form-control {
+      background-color: transparent;
+      border: 1px solid #555;
+      color: white;
+    }
+    
+    .form-control::placeholder {
+      color: #ccc;
+    }
+
+    .catalog-dropdown:hover .dropdown-menu {
+      display: block;
+    }
+    
+    .dropdown-submenu {
+      position: relative;
+    }
+    
+    .dropdown-submenu > .dropdown-menu {
+      top: 0;
+      left: 100%;
+      margin-top: -1px;
+      display: none;
+    }
+    
+    .dropdown-submenu:hover > .dropdown-menu {
+      display: block;
+    }
+    
+    .dropdown-menu {
+      background-color: #2a2a2a;
+      border: none;
+    }
+    
+    .dropdown-item {
+      color: white;
+    }
+    
+    .dropdown-item:hover {
+      background-color: #00ffcc;
+      color: black;
+    }
+    
+    .btn-custom {
+      background-color: transparent !important;
+      border: none !important;
+      color: white !important;
+      font-weight: 500 !important;
+      padding: 6px 12px !important;
+      transition: color 0.3s ease, background-color 0.3s ease !important;
+    }
+    
+    .btn-custom:hover {
+      color: #00ffcc !important;
+      background-color: rgba(255, 255, 255, 0.05) !important;
+    }
+    
+    .form-control {
+      background-color: transparent !important;
+      border: 1px solid #555 !important;
+      color: white !important;
+    }
+    
+    .form-control::placeholder {
+      color: #ccc !important;
+    }
+
+    /* Кнопки */
+.btn-custom {
+  background-color: #343a40;
+  color: #fff;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #495057;
+  color: #fff;
+}
+
+/* Навигация */
+.navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #adb5bd !important;
+}
+
+/* Dropdown */
+.dropdown-menu {
+  background-color: #343a40;
+  border: none;
+}
+
+.dropdown-item {
+  color: #fff;
+}
+
+.dropdown-item:hover {
+  background-color: #495057;
+  color: #fff;
+}
+
+/* Glow hover (для списка в offcanvas, если он ещё используется) */
+.hover-glow:hover {
+  background-color: #495057;
+  color: #fff;
+}
+
+/* Стили для боковой панели */
+.offcanvas {
+  background-color: #1c1c1c; /* тёмный фон */
+  color: white;
+  border-right: 1px solid #333;
+}
+
+.offcanvas-header {
+  border-bottom: 1px solid #333;
+}
+
+.offcanvas-title {
+  color: #00ffcc;
+}
+
+.offcanvas-body {
+  padding: 1rem;
+}
+
+.offcanvas .list-group-item {
+  background-color: transparent;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.offcanvas .list-group-item:hover {
+  background-color: #343a40;
+  color: #00ffcc;
+}
+
+/* .logo-img {
+  height:80px;
+  width: auto;
+  margin-top: 0px; поднимаем, чтобы не давил на navbar */
+
+/* === СТИЛЬ ФИЛЬТРОВ === */
+
+.filter-block {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.filter-block h5 {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    color: #333;
+}
+
+.filter-block label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: #333;
+    cursor: pointer;
+}
+
+.filter-block input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+.filter-block input[type="range"],
+.filter-block input[type="number"] {
+    width: 100%;
+    margin-top: 0.25rem;
+}
+
+.filter-block .price-range {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.filter-block .price-range input {
+    flex: 1;
+    padding: 0.4rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Подгонка кнопок применить/сброс */
+.filter-actions {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.filter-actions button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border-radius: 0.25rem;
+    border: none;
+    cursor: pointer;
+}
+
+.filter-actions .apply {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.filter-actions .reset {
+    background-color: #e0e0e0;
+    color: #333;
+}
+/* Заголовки разделов (например, "Категории", "Фильтры") */
+.section-title {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+/* Кнопки "Показать все" и "Свернуть" */
+.toggle-subcategories-btn {
+  background: none;
+  border: none;
+  color: #0d6efd;
+  cursor: pointer;
+  padding: 0;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+
+.toggle-subcategories-btn:hover {
+  text-decoration: underline;
+}
+
+/* Товары по акции */
+.badge-sale {
+  background-color: #dc3545;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.4em 0.6em;
+  border-radius: 0.5rem;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+/* Подкатегории — плавное открытие/закрытие */
+.subcategory-list {
+  list-style: none;
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.subcategory-list li {
+  margin-bottom: 0.25rem;
+}
+
+.subcategory-list a {
+  color: #495057;
+  text-decoration: none;
+}
+
+.subcategory-list a:hover {
+  color: #0d6efd;
+  text-decoration: underline;
+}
+#category-list {
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+#category-list .list-group-item {
+  background-color: transparent;
+  color: #333;
+  border: none;
+  padding: 0.25rem 0;
+  transition: color 0.2s ease;
+}
+
+#category-list .list-group-item:hover a {
+  color: #007bff;
+}
+
+#category-list a {
+  color: #333;
+  font-size: 0.95rem;
+}
+
+#category-list a:hover {
+  text-decoration: underline;
+}
+
+#category-list .active > a {
+  font-weight: 700;
+  color: #007bff !important;
+}
+
+.custom-checkbox .form-check-input {
+  accent-color: #4a8df8; /* светло-синий акцент (в стиле Ozon) */
+  width: 1.2em;
+  height: 1.2em;
+  border-radius: 0.25em;
+  border: 1px solid #bbb;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.custom-checkbox .form-check-input:checked {
+  background-color: #4a8df8;
+  border-color: #4a8df8;
+}
+
+.custom-checkbox .form-check-label {
+  color: #333;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.custom-checkbox .form-check-label {
+  color: #000 !important; /* Чёткий чёрный цвет */
+  font-weight: 500;
+  cursor: pointer;
+}
+
+option[data-available="false"] {
+  color: gray;
+}
+
+.filter-panel .form-label,
+.filter-panel .form-check-label {
+  color: #212529 !important; /* тёмный текст */
+}
+
+.filter-panel .form-check-input {
+  background-color: white !important;
+  border-color: #ced4da !important;
+}
+
+.filter-panel .form-control {
+  background-color: white !important;
+  color: #212529 !important;
+  border-color: #ced4da !important;
+}
+
+.filter-panel .btn-outline-primary {
+  color: #0d6efd !important;
+  border-color: #0d6efd !important;
+  background-color: white !important;
+}
+
+.filter-panel .btn-outline-primary:hover {
+  background-color: #0d6efd !important;
+  color: white !important;
+}
