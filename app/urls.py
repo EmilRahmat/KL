@@ -31,7 +31,7 @@ urlpatterns = [
     path("search/", include("search.urls", namespace="search")),
     path("favorites/", include("favorites.urls", namespace="favorites")),
     path("cart/", include("cart.urls", namespace="cart")),
-    path("accounts/", include("users.urls", namespace="users")),
+    path("users/", include("users.urls", namespace="users")),
     ] + debug_toolbar_urls()
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

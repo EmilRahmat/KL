@@ -1,0 +1,16 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container mt-5" style="max-width: 500px;">
+  <h3 class="text-center mb-4">Вход по номеру телефона</h3>
+  <form method="post" action="{% url 'users:phone_login' %}">
+    {% csrf_token %}
+    <div class="mb-3">
+      <label for="phone" class="form-label">Номер телефона</label>
+      <input type="text" class="form-control" id="phone" name="phone_number" placeholder="+7XXXXXXXXXX" required>
+    </div>
+    <button type="submit" class="btn btn-primary w-100">Получить код</button>
+  </form>
+</div>
+{% endblock %}
