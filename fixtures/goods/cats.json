@@ -1,0 +1,130 @@
+[
+    {
+        "model": "goods.categories",
+        "pk": 4,
+        "fields": {
+            "name": "Все товары",
+            "slug": "all"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 5,
+        "fields": {
+            "name": "Верхняя одежда",
+            "slug": "verhnyaya-odezhda"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 6,
+        "fields": {
+            "name": "SALE",
+            "slug": "sale"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 7,
+        "fields": {
+            "name": "Футболки и топы",
+            "slug": "futbolki-i-topy"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 8,
+        "fields": {
+            "name": "Водолазки и лонгсливы",
+            "slug": "vodolazki-i-longslivy"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 9,
+        "fields": {
+            "name": "Джемперы и кардиганы",
+            "slug": "dzhempery-i-kardigany"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 10,
+        "fields": {
+            "name": "Платья и сарафаны",
+            "slug": "platya-i-sarafany"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 11,
+        "fields": {
+            "name": "Джинсы",
+            "slug": "dzhinsy"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 12,
+        "fields": {
+            "name": "Брюки и леггинсы",
+            "slug": "bryuki-i-legginsy"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 13,
+        "fields": {
+            "name": "Шорты и велосипедки",
+            "slug": "shorty-i-velosipedki"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 14,
+        "fields": {
+            "name": "Юбки",
+            "slug": "yubki"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 15,
+        "fields": {
+            "name": "Белье и одежда для дома",
+            "slug": "bele-i-odezhda-dlya-doma"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 16,
+        "fields": {
+            "name": "Головные уборы",
+            "slug": "golovnye-ubory"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 17,
+        "fields": {
+            "name": "Обувь",
+            "slug": "obuv"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 18,
+        "fields": {
+            "name": "Аксессуары",
+            "slug": "aksessuary"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 19,
+        "fields": {
+            "name": "Толстовки",
+            "slug": "tolstovki"
+        }
+    }
+]
