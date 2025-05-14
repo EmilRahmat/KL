@@ -66,37 +66,7 @@ class Products(models.Model):
         
         return self.price
     
-# class VariationManager(models.Manager):
-#     def colors(self):
-#         return super(VariationManager, self).filter(variation_category='color', is_active=True)
 
-#     def sizes(self):
-#         return super(VariationManager, self).filter(variation_category='size', is_active=True)
-    
-# variation_category_choice = (
-#     ('color', 'цвет'),
-#     ('size', 'размер'),
-# )    
-
-
-# class Variation(models.Model):
-#     product = models.ForeignKey(Products, on_delete=models.CASCADE, verbose_name='Товар', related_name='variations')
-#     sku = models.CharField(max_length=150, unique=True, verbose_name="Акртикул вариации")
-#     (slug) = models.SlugField(max_length=200, unique=True, blank=True, null=True, verbose_name='url')
-#     variation_category = models.CharField(max_length=100, blank=True, null=True, choices=variation_category_choice, verbose_name='Категория '
-#                                                                                                           'вариации')
-#     variation_value = models.CharField(max_length=100, blank=True, null=True, verbose_name='Значение вариации')
-#     is_active = models.BooleanField(default=True, verbose_name='Активно')
-#     quantity = models.PositiveIntegerField(default=0, verbose_name='Колличество')
-#     objects = VariationManager()        
-
-#     def __str__(self):
-#         return f' {self.variation_category} : {self.variation_value}  - {self.quantity} шт.'
-
-#     class Meta:
-#         verbose_name = 'Вариацию'
-#         verbose_name_plural = 'Вариации'    
-        
 class Variation(models.Model):
     product = models.ForeignKey('Products', on_delete=models.CASCADE, related_name='variations')
     sku = models.CharField(max_length=150, unique=True, verbose_name="Акртикул вариации")

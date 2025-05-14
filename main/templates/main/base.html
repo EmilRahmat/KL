@@ -14,7 +14,23 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
   {% block css %}{% endblock %}
 </head>
-<body>
+<body style="
+  {% if site_settings %}
+    {% if site_settings.use_image and site_settings.background_image %}
+      background-image: url('{{ site_settings.background_image.url }}');
+    {% else %}
+      background-image: none;
+    {% endif %}
+    {% if site_settings.background_color %}
+      background-color: {{ site_settings.background_color }};
+    {% endif %}
+  {% endif %}
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+">
 
   <nav class="navbar navbar-expand-lg shadow-sm fixed-top" style="background-color: #1c1c1c; z-index: 1045;">
   <div class="container">
@@ -40,7 +56,7 @@
         <a class="nav-link" href="{% url 'favorites:index' %}" style="color: white;"> <i class="bi bi-heart"></i> Избранное </a>
       </li>
       <li class="nav-item me-3">
-        <a class="nav-link" href="{% url 'cart:detail' %}" style="color: white;"> <i class="bi bi-cart"></i> Корзина </a>
+        <a class="nav-link" href="{% url 'cart:cart_detail' %}" style="color: white;"> <i class="bi bi-cart"></i> Корзина </a>
       </li>
       {% if user.is_authenticated %}
       <li class="nav-item">
@@ -56,7 +72,7 @@
       </li>
     {% else %}
       <li class="nav-item">
-        <a class="nav-link" href="{% url 'users:phone_login' %}">
+        <a class="nav-link" href="{% url 'users:login_password' %}">
           <i class="bi bi-box-arrow-in-right"></i> Войти
         </a>
       </li>

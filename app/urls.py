@@ -32,6 +32,7 @@ urlpatterns = [
     path("favorites/", include("favorites.urls", namespace="favorites")),
     path("cart/", include("cart.urls", namespace="cart")),
     path("users/", include("users.urls", namespace="users")),
+    path('orders/', include(('orders.urls', 'orders'), namespace='orders')),
     ] + debug_toolbar_urls()
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

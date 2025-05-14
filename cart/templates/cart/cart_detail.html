@@ -1,0 +1,43 @@
+{% extends 'main/base.html' %}
+{% block content %}
+<h2 class="mb-4">Корзина</h2>
+{% if cart.items.all %}
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Товар</th>
+        <th>Размер</th>
+        <th>Количество</th>
+        <th>Цена</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in cart.items.all %}
+        <tr>
+          <td>{{ item.product.name }}</td>
+          <td>{{ item.variation.size }}</td>
+          <td>
+            <form method="post" action="{% url 'cart:update_quantity' item.id %}">
+              {% csrf_token %}
+              <input type="number" name="quantity" value="{{ item.quantity }}" min="1" style="width: 60px;">
+              <button type="submit" class="btn btn-sm btn-outline-primary">OK</button>
+            </form>
+          </td>
+          <td>{{ item.total_price }} ₽</td>
+          <td>
+            <a href="{% url 'cart:remove_from_cart' item.id %}" class="btn btn-sm btn-danger">Удалить</a>
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  <h4>Итого: {{ cart.total_price }} ₽</h4>
+{% else %}
+  <p>Ваша корзина пуста.</p>
+{% endif %}
+<form method="post" action="{% url 'orders:create_order' %}">
+  {% csrf_token %}
+  <button type="submit" class="btn btn-success mt-3">Оформить заказ</button>
+</form>
+{% endblock %}

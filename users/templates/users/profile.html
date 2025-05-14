@@ -2,6 +2,25 @@
 {% block content %}
 <div class="card p-4 shadow-sm">
     <h4 class="mb-3">Ваш профиль</h4>
+{% if orders %}
+    <ul>
+        {% for order in orders %}
+            <li class="mb-2">
+                <strong>Заказ №{{ order.id }}</strong> — {{ order.get_status_display }} — {{ order.created_at|date:"d.m.Y H:i" }}
+                <ul>
+                    {% for item in order.items.all %}
+                        <li>{{ item.product.name }} ({{ item.variation.size }}) — {{ item.quantity }} шт.</li>
+                    {% endfor %}
+                </ul>
+                {% if order.status in 'pending waiting_payment processing' %}
+                    <a href="{% url 'orders:cancel_order' order.id %}" class="btn btn-sm btn-danger mt-1">Отменить заказ</a>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>У вас пока нет заказов.</p>
+{% endif %}
     <p><strong>Номер телефона:</strong> {{ user.phone_number }}</p>
     <a href="{% url 'users:logout' %}" class="btn btn-outline-danger mt-3">Выйти</a>
   </div>
