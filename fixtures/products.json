@@ -1,0 +1,7322 @@
+[
+    {
+        "model": "goods.products",
+        "pk": 58,
+        "fields": {
+            "name": "337706B Беретка в ас-те",
+            "sku": "9173",
+            "slug": "9173",
+            "description": "",
+            "price": 599.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 10
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 59,
+        "fields": {
+            "name": "AMALISH Шапка на завязках в ас-те",
+            "sku": "4179",
+            "slug": "4179",
+            "description": "",
+            "price": 600.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 10
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 60,
+        "fields": {
+            "name": "BORKKSH Шапка на завязках",
+            "sku": "4182",
+            "slug": "4182",
+            "description": "",
+            "price": 1000.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 10
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 61,
+        "fields": {
+            "name": "EXCLUSIVEE Шапка с пампушкой в ас-те",
+            "sku": "4642",
+            "slug": "4642",
+            "description": "",
+            "price": 499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 10
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 62,
+        "fields": {
+            "name": "KORKKI19324 Комплект шапка+снуд в ас-те",
+            "sku": "8372",
+            "slug": "8372",
+            "description": "",
+            "price": 1799.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 10
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 63,
+        "fields": {
+            "name": "SATEX52 Шапка зима с ушками",
+            "sku": "8368",
+            "slug": "8368",
+            "description": "",
+            "price": 999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 10
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 64,
+        "fields": {
+            "name": "SLAVR351 Шапка мишка пампон в ас-те",
+            "sku": "8635",
+            "slug": "8635",
+            "description": "",
+            "price": 650.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 10
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 65,
+        "fields": {
+            "name": "Докер в ас-те",
+            "sku": "9545",
+            "slug": "9545",
+            "description": "",
+            "price": 390.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 10
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 66,
+        "fields": {
+            "name": "Докер варенка в ас-те",
+            "sku": "10434",
+            "slug": "10434",
+            "description": "",
+            "price": 350.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 10
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 67,
+        "fields": {
+            "name": "Кепка FNDI",
+            "sku": "9831",
+            "slug": "9831",
+            "description": "",
+            "price": 550.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 10
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 68,
+        "fields": {
+            "name": "Кепка берет в ас-те",
+            "sku": "10397",
+            "slug": "10397",
+            "description": "",
+            "price": 750.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 10
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 69,
+        "fields": {
+            "name": "Кепка блестки",
+            "sku": "9832",
+            "slug": "9832",
+            "description": "",
+            "price": 399.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 10
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 70,
+        "fields": {
+            "name": "Кепка варенка в ас-те",
+            "sku": "6518",
+            "slug": "6518",
+            "description": "",
+            "price": 350.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 10
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 71,
+        "fields": {
+            "name": "Кепка лео в ас-те",
+            "sku": "10396",
+            "slug": "10396",
+            "description": "",
+            "price": 550.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 10
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 72,
+        "fields": {
+            "name": "Кепка однотонная в ас-те",
+            "sku": "6519",
+            "slug": "6519",
+            "description": "",
+            "price": 299.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 10
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 73,
+        "fields": {
+            "name": "Кепка рван. в ас-те",
+            "sku": "6517",
+            "slug": "6517",
+            "description": "",
+            "price": 550.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 10
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 74,
+        "fields": {
+            "name": "Кеппи джинсовая в ас-те",
+            "sku": "10398",
+            "slug": "10398",
+            "description": "",
+            "price": 850.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 10
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 75,
+        "fields": {
+            "name": "Палантин в ас-те S",
+            "sku": "4368",
+            "slug": "4368",
+            "description": "",
+            "price": 500.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 10
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 76,
+        "fields": {
+            "name": "Панама варенка в ас-те",
+            "sku": "10435",
+            "slug": "10435",
+            "description": "",
+            "price": 350.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 10
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 77,
+        "fields": {
+            "name": "Панамка джинсовая в ас-те",
+            "sku": "10014",
+            "slug": "10014",
+            "description": "",
+            "price": 499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 10
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 78,
+        "fields": {
+            "name": "2064 Колготки",
+            "sku": "DOVER2064",
+            "slug": "dover2064",
+            "description": "",
+            "price": 290.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 13
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 79,
+        "fields": {
+            "name": "2264 Термо колготки на меху",
+            "sku": "DOVER2264",
+            "slug": "dover2264",
+            "description": "",
+            "price": 450.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 13
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 80,
+        "fields": {
+            "name": "873 Колготки капроновые сердце",
+            "sku": "АЛИСА873",
+            "slug": "873",
+            "description": "",
+            "price": 250.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 13
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 81,
+        "fields": {
+            "name": "KSOXK2208 Гольфы теплые в ас-те",
+            "sku": "4362",
+            "slug": "4362",
+            "description": "",
+            "price": 490.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 13
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 82,
+        "fields": {
+            "name": "ROSA3366 Носки в ас-те",
+            "sku": "9546",
+            "slug": "9546",
+            "description": "",
+            "price": 70.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 13
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 83,
+        "fields": {
+            "name": "RYW3303 Носки следки в ас-те 37-41",
+            "sku": "6506",
+            "slug": "6506",
+            "description": "",
+            "price": 80.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 13
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 84,
+        "fields": {
+            "name": "TURKAN0127 Носки следки MIU в ас-те",
+            "sku": "10467",
+            "slug": "10467",
+            "description": "",
+            "price": 90.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 13
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 85,
+        "fields": {
+            "name": "TURKANTY413 Носки в ас-те",
+            "sku": "8752",
+            "slug": "8752",
+            "description": "",
+            "price": 85.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 13
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 86,
+        "fields": {
+            "name": "XL8521 Носки следки в ас-те",
+            "sku": "10468",
+            "slug": "10468",
+            "description": "",
+            "price": 70.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 13
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 87,
+        "fields": {
+            "name": "Гольфы черные белая полоска 6-8",
+            "sku": "2881",
+            "slug": "2881",
+            "description": "",
+            "price": 100.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 13
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 88,
+        "fields": {
+            "name": "Гольфы черные белая полоска 8-10",
+            "sku": "10557",
+            "slug": "10557",
+            "description": "",
+            "price": 100.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 13
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 89,
+        "fields": {
+            "name": "Колготки белые бабочки 12-14",
+            "sku": "2879",
+            "slug": "2879",
+            "description": "",
+            "price": 230.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 13
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 90,
+        "fields": {
+            "name": "Колготки белые горошек наряд 6-8",
+            "sku": "10555",
+            "slug": "10555",
+            "description": "",
+            "price": 250.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 13
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 91,
+        "fields": {
+            "name": "Колготки белые горошек наряд 9-11",
+            "sku": "2880",
+            "slug": "2880",
+            "description": "",
+            "price": 250.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 13
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 92,
+        "fields": {
+            "name": "Колготки белые звоздочки 6-8",
+            "sku": "7464",
+            "slug": "7464",
+            "description": "",
+            "price": 250.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 13
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 93,
+        "fields": {
+            "name": "Колготки белые капроновые S/M 120D",
+            "sku": "2731",
+            "slug": "2731",
+            "description": "",
+            "price": 270.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 13
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 94,
+        "fields": {
+            "name": "Колготки капрон в горошек 2-S Nero",
+            "sku": "5186",
+            "slug": "5186",
+            "description": "",
+            "price": 350.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 13
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 95,
+        "fields": {
+            "name": "Колготки капрон в горошек черные L/XL",
+            "sku": "10553",
+            "slug": "10553",
+            "description": "",
+            "price": 360.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 13
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 96,
+        "fields": {
+            "name": "Колготки капрон в горошек черные S/M",
+            "sku": "10554",
+            "slug": "10554",
+            "description": "",
+            "price": 360.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 13
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 97,
+        "fields": {
+            "name": "Колготки капроновые черные 2-S 40D",
+            "sku": "8949",
+            "slug": "8949",
+            "description": "",
+            "price": 220.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 13
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 98,
+        "fields": {
+            "name": "Колготки капроновые черные в горошек 30DEN",
+            "sku": "5383",
+            "slug": "5383",
+            "description": "",
+            "price": 360.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 13
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 99,
+        "fields": {
+            "name": "Колготки не скатывающиеся 122-128",
+            "sku": "4372",
+            "slug": "4372",
+            "description": "",
+            "price": 290.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 13
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 100,
+        "fields": {
+            "name": "Колготки не скатывающиеся 158-164",
+            "sku": "10556",
+            "slug": "10556",
+            "description": "",
+            "price": 290.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 13
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 101,
+        "fields": {
+            "name": "Колготки черные капроновые 8-14 60D",
+            "sku": "2732",
+            "slug": "2732",
+            "description": "",
+            "price": 200.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 13
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 102,
+        "fields": {
+            "name": "0285 Зонт трость в ас-те",
+            "sku": "8251",
+            "slug": "8251",
+            "description": "",
+            "price": 499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 14
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 103,
+        "fields": {
+            "name": "12O Очки в ас-те",
+            "sku": "6778",
+            "slug": "6778",
+            "description": "",
+            "price": 299.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 14
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 104,
+        "fields": {
+            "name": "7127 Зонт автомат в ас-те",
+            "sku": "8250",
+            "slug": "8250",
+            "description": "",
+            "price": 699.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 14
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 105,
+        "fields": {
+            "name": "EKG17 Галстук с брошкой в ас-те",
+            "sku": "7011",
+            "slug": "7011",
+            "description": "",
+            "price": 290.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 14
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 106,
+        "fields": {
+            "name": "EKG27 Галстук в ас-те",
+            "sku": "7010",
+            "slug": "7010",
+            "description": "",
+            "price": 270.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 14
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 107,
+        "fields": {
+            "name": "Ободок бордовый стразы",
+            "sku": "10552",
+            "slug": "10552",
+            "description": "",
+            "price": 350.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 14
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 108,
+        "fields": {
+            "name": "Одежда Алтын",
+            "sku": "1251",
+            "slug": "1251",
+            "description": "",
+            "price": 0.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 14
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 109,
+        "fields": {
+            "name": "HENU5217 Варежки в ас-те",
+            "sku": "4624",
+            "slug": "4624",
+            "description": "",
+            "price": 250.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 12
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 110,
+        "fields": {
+            "name": "HENU7119 Перчатки в ас-те",
+            "sku": "8706",
+            "slug": "8706",
+            "description": "",
+            "price": 320.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 12
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 111,
+        "fields": {
+            "name": "HENU9904 Варежки в ас-те",
+            "sku": "8375",
+            "slug": "8375",
+            "description": "",
+            "price": 450.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 12
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 112,
+        "fields": {
+            "name": "HENUC309 Варежки в ас-те",
+            "sku": "4625",
+            "slug": "4625",
+            "description": "",
+            "price": 265.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 12
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 113,
+        "fields": {
+            "name": "MARIAF113 Перчатки в ас-те",
+            "sku": "8751",
+            "slug": "8751",
+            "description": "",
+            "price": 320.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 12
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 114,
+        "fields": {
+            "name": "SNEG6116 Варежки в ас-те",
+            "sku": "8376",
+            "slug": "8376",
+            "description": "",
+            "price": 399.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 12
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 115,
+        "fields": {
+            "name": "0149BK Сумка черная",
+            "sku": "9526",
+            "slug": "9526",
+            "description": "",
+            "price": 1499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 116,
+        "fields": {
+            "name": "1314BK Сумка черная",
+            "sku": "9525",
+            "slug": "9525",
+            "description": "",
+            "price": 1200.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 117,
+        "fields": {
+            "name": "1314WE Сумка белая",
+            "sku": "9524",
+            "slug": "9524",
+            "description": "",
+            "price": 1200.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 118,
+        "fields": {
+            "name": "3321 Сумка черная",
+            "sku": "9523",
+            "slug": "9523",
+            "description": "",
+            "price": 1499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 119,
+        "fields": {
+            "name": "362 Рюкзак в ас-те",
+            "sku": "7207",
+            "slug": "7207",
+            "description": "",
+            "price": 1199.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 120,
+        "fields": {
+            "name": "4406AL Сумка рюкзак в ас-те",
+            "sku": "9543",
+            "slug": "9543",
+            "description": "",
+            "price": 950.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 121,
+        "fields": {
+            "name": "4989DZ Сумка джинсовая",
+            "sku": "9527",
+            "slug": "9527",
+            "description": "",
+            "price": 1699.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 122,
+        "fields": {
+            "name": "5153AL Сумка в ас-те",
+            "sku": "9538",
+            "slug": "9538",
+            "description": "",
+            "price": 850.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 123,
+        "fields": {
+            "name": "5315BE Сумка плетенка бежевый ремень",
+            "sku": "9535",
+            "slug": "9535",
+            "description": "",
+            "price": 899.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 124,
+        "fields": {
+            "name": "5315BK Сумка плетенка черный ремень",
+            "sku": "9534",
+            "slug": "9534",
+            "description": "",
+            "price": 899.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 125,
+        "fields": {
+            "name": "6355GN Сумка зеленая",
+            "sku": "9537",
+            "slug": "9537",
+            "description": "",
+            "price": 999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 126,
+        "fields": {
+            "name": "6606 Сумка в ас-те",
+            "sku": "6524",
+            "slug": "6524",
+            "description": "",
+            "price": 2500.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 127,
+        "fields": {
+            "name": "7590 Сумка в ас-те",
+            "sku": "10000",
+            "slug": "10000",
+            "description": "",
+            "price": 1399.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 128,
+        "fields": {
+            "name": "76661 Сумка в ас-те",
+            "sku": "8909",
+            "slug": "8909",
+            "description": "",
+            "price": 1199.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 129,
+        "fields": {
+            "name": "7764SUM Сумка в ас-те",
+            "sku": "9174",
+            "slug": "9174",
+            "description": "",
+            "price": 1599.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 130,
+        "fields": {
+            "name": "8851BK Сумка черная",
+            "sku": "9528",
+            "slug": "9528",
+            "description": "",
+            "price": 1200.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 131,
+        "fields": {
+            "name": "8851GN Сумка салатовая",
+            "sku": "9530",
+            "slug": "9530",
+            "description": "",
+            "price": 1200.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 132,
+        "fields": {
+            "name": "8851WE Сумка белая",
+            "sku": "9529",
+            "slug": "9529",
+            "description": "",
+            "price": 1200.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 133,
+        "fields": {
+            "name": "8874ALL Сумка в ас-те",
+            "sku": "9540",
+            "slug": "9540",
+            "description": "",
+            "price": 799.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 134,
+        "fields": {
+            "name": "9691969 Сумка сердечко в ас-те",
+            "sku": "8202",
+            "slug": "8202",
+            "description": "",
+            "price": 1250.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 135,
+        "fields": {
+            "name": "9869BK Сумка черная",
+            "sku": "9532",
+            "slug": "9532",
+            "description": "",
+            "price": 999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 136,
+        "fields": {
+            "name": "9869WE Сумка белая",
+            "sku": "9531",
+            "slug": "9531",
+            "description": "",
+            "price": 999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 137,
+        "fields": {
+            "name": "N160 Сумка в ас-те",
+            "sku": "6006",
+            "slug": "6006",
+            "description": "",
+            "price": 1099.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 138,
+        "fields": {
+            "name": "NIOMI1037ANI Рюкзак школьный",
+            "sku": "2408",
+            "slug": "2408",
+            "description": "",
+            "price": 1899.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 139,
+        "fields": {
+            "name": "NNRYK Рюкзак школьный с зайчиками",
+            "sku": "2456",
+            "slug": "2456",
+            "description": "",
+            "price": 899.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 140,
+        "fields": {
+            "name": "NNSHOP20632 Шопер",
+            "sku": "2455",
+            "slug": "2455",
+            "description": "",
+            "price": 350.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 141,
+        "fields": {
+            "name": "NNSHWEEK Шопер Weekend  в ас-те",
+            "sku": "6373",
+            "slug": "6373",
+            "description": "",
+            "price": 499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 142,
+        "fields": {
+            "name": "Сумка",
+            "sku": "9771",
+            "slug": "9771",
+            "description": "",
+            "price": 1299.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 143,
+        "fields": {
+            "name": "Сумка в ас-те",
+            "sku": "9763",
+            "slug": "9763",
+            "description": "",
+            "price": 1399.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 144,
+        "fields": {
+            "name": "Сумка в ас-те",
+            "sku": "9765",
+            "slug": "9765",
+            "description": "",
+            "price": 1299.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 145,
+        "fields": {
+            "name": "Сумка в ас-те",
+            "sku": "9767",
+            "slug": "9767",
+            "description": "",
+            "price": 1000.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 146,
+        "fields": {
+            "name": "Сумка в ас-те",
+            "sku": "9770",
+            "slug": "9770",
+            "description": "",
+            "price": 1299.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 147,
+        "fields": {
+            "name": "Сумка в ас-те",
+            "sku": "9773",
+            "slug": "9773",
+            "description": "",
+            "price": 1399.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 148,
+        "fields": {
+            "name": "Сумка в ас-те",
+            "sku": "10005",
+            "slug": "10005",
+            "description": "",
+            "price": 1599.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 149,
+        "fields": {
+            "name": "Сумка в ас-те",
+            "sku": "10011",
+            "slug": "10011",
+            "description": "",
+            "price": 2399.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 150,
+        "fields": {
+            "name": "Сумка в ас-те варенка",
+            "sku": "10012",
+            "slug": "10012",
+            "description": "",
+            "price": 1699.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 151,
+        "fields": {
+            "name": "Сумка лео в ас-те",
+            "sku": "10003",
+            "slug": "10003",
+            "description": "",
+            "price": 900.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 152,
+        "fields": {
+            "name": "Сумка плетенка Hello",
+            "sku": "10002",
+            "slug": "10002",
+            "description": "",
+            "price": 1399.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 153,
+        "fields": {
+            "name": "Сумка цилиндр в ас-те",
+            "sku": "10009",
+            "slug": "10009",
+            "description": "",
+            "price": 1550.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 154,
+        "fields": {
+            "name": "1298 Бантик резинка",
+            "sku": "7736",
+            "slug": "7736",
+            "description": "",
+            "price": 160.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 11
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 155,
+        "fields": {
+            "name": "548 Резинка в ас-те",
+            "sku": "9554",
+            "slug": "9554",
+            "description": "",
+            "price": 100.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 11
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 156,
+        "fields": {
+            "name": "5580 Бант в ас-те",
+            "sku": "7473",
+            "slug": "7473",
+            "description": "",
+            "price": 90.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 11
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 157,
+        "fields": {
+            "name": "6395 Бантик резинка",
+            "sku": "7735",
+            "slug": "7735",
+            "description": "",
+            "price": 60.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 11
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 158,
+        "fields": {
+            "name": "6504 Резинка в ас-те",
+            "sku": "7479",
+            "slug": "7479",
+            "description": "",
+            "price": 140.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 11
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 159,
+        "fields": {
+            "name": "B1214 Бант в ас-те",
+            "sku": "7480",
+            "slug": "7480",
+            "description": "",
+            "price": 260.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 11
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 160,
+        "fields": {
+            "name": "FC401 Бант заколка в ас-те",
+            "sku": "8249",
+            "slug": "8249",
+            "description": "",
+            "price": 400.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 11
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 161,
+        "fields": {
+            "name": "FC906 Бант резинка",
+            "sku": "7732",
+            "slug": "7732",
+            "description": "",
+            "price": 150.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 11
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 162,
+        "fields": {
+            "name": "FH1161 Бант безинка",
+            "sku": "7731",
+            "slug": "7731",
+            "description": "",
+            "price": 150.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 11
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 163,
+        "fields": {
+            "name": "FH1162 Бантик резинка",
+            "sku": "7734",
+            "slug": "7734",
+            "description": "",
+            "price": 190.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 11
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 164,
+        "fields": {
+            "name": "FH565 Бантик резинка",
+            "sku": "7733",
+            "slug": "7733",
+            "description": "",
+            "price": 150.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 11
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 165,
+        "fields": {
+            "name": "FH943 Бант в ас-те",
+            "sku": "7472",
+            "slug": "7472",
+            "description": "",
+            "price": 90.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 11
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 166,
+        "fields": {
+            "name": "FJ15V Цепь в ас-те",
+            "sku": "6514",
+            "slug": "6514",
+            "description": "",
+            "price": 300.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 11
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 167,
+        "fields": {
+            "name": "FXR12 Резинка бантик в ас-те",
+            "sku": "6516",
+            "slug": "6516",
+            "description": "",
+            "price": 250.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 11
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 168,
+        "fields": {
+            "name": "INY Браслет инь янь",
+            "sku": "9548",
+            "slug": "9548",
+            "description": "",
+            "price": 50.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 11
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 169,
+        "fields": {
+            "name": "NNBR35 Браслет в ас-те",
+            "sku": "9553",
+            "slug": "9553",
+            "description": "",
+            "price": 700.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 11
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 170,
+        "fields": {
+            "name": "NNR1 Резинка в ас-те спираль",
+            "sku": "9550",
+            "slug": "9550",
+            "description": "",
+            "price": 20.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 11
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 171,
+        "fields": {
+            "name": "NNSER30 Сережки в ас-те",
+            "sku": "9552",
+            "slug": "9552",
+            "description": "",
+            "price": 600.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 11
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 172,
+        "fields": {
+            "name": "Бант белый",
+            "sku": "10551",
+            "slug": "10551",
+            "description": "",
+            "price": 160.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 11
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 173,
+        "fields": {
+            "name": "Бант большой синяя окантовка",
+            "sku": "2885",
+            "slug": "2885",
+            "description": "",
+            "price": 200.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 11
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 174,
+        "fields": {
+            "name": "Резинка волнистая маленькая в ас-те",
+            "sku": "10013",
+            "slug": "10013",
+            "description": "",
+            "price": 60.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 11
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 175,
+        "fields": {
+            "name": "Резинка волнистая средняя в ас-те",
+            "sku": "10558",
+            "slug": "10558",
+            "description": "",
+            "price": 80.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 11
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 176,
+        "fields": {
+            "name": "Лосины черные утепленные",
+            "sku": "4228L",
+            "slug": "4228l",
+            "description": "",
+            "price": 1399.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 177,
+        "fields": {
+            "name": "Брюки карго молочные",
+            "sku": "52673BK3",
+            "slug": "52673bk3",
+            "description": "",
+            "price": 1000.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 178,
+        "fields": {
+            "name": "Лосины кожаные утепл. Черные",
+            "sku": "8211",
+            "slug": "8211",
+            "description": "",
+            "price": 899.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 179,
+        "fields": {
+            "name": "Штаны кожаные",
+            "sku": "8804-5",
+            "slug": "8804-5",
+            "description": "",
+            "price": 999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 180,
+        "fields": {
+            "name": "Джогеры черные кожаные утепл",
+            "sku": "8805-5",
+            "slug": "8805-5",
+            "description": "",
+            "price": 999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 181,
+        "fields": {
+            "name": "Брюки карго кирпичные",
+            "sku": "A2363",
+            "slug": "a2363",
+            "description": "",
+            "price": 1899.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 182,
+        "fields": {
+            "name": "Брюки карго",
+            "sku": "AIKABR16423",
+            "slug": "aikabr16423",
+            "description": "",
+            "price": 1400.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 183,
+        "fields": {
+            "name": "Брюки карго",
+            "sku": "AYLINBRK35238",
+            "slug": "aylinbrk35238",
+            "description": "",
+            "price": 1400.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 184,
+        "fields": {
+            "name": "Брюки синие утепленные",
+            "sku": "BANKANG9046",
+            "slug": "bankang9046",
+            "description": "",
+            "price": 1500.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 185,
+        "fields": {
+            "name": "Брюки кожаные бежевые",
+            "sku": "DTBM127",
+            "slug": "dtbm127",
+            "description": "",
+            "price": 1299.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 186,
+        "fields": {
+            "name": "Брюки карго черные хб стрейч",
+            "sku": "EK05402",
+            "slug": "ek05402",
+            "description": "",
+            "price": 1499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 187,
+        "fields": {
+            "name": "Брюки палаццо черные",
+            "sku": "EK0666",
+            "slug": "ek0666",
+            "description": "",
+            "price": 1299.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 188,
+        "fields": {
+            "name": "Брюки палаццо с цепью цвет в ас-те",
+            "sku": "EK668",
+            "slug": "ek668",
+            "description": "",
+            "price": 1200.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 189,
+        "fields": {
+            "name": "Брюки карго черные",
+            "sku": "FASH301BKM",
+            "slug": "fash301bkm",
+            "description": "",
+            "price": 2299.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 190,
+        "fields": {
+            "name": "Брюки палаццо теплые синие",
+            "sku": "K336",
+            "slug": "k336",
+            "description": "",
+            "price": 1899.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 191,
+        "fields": {
+            "name": "Брюки карго теплые черные",
+            "sku": "K350",
+            "slug": "k350",
+            "description": "",
+            "price": 1899.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 192,
+        "fields": {
+            "name": "Брюки карго с сумкой черные",
+            "sku": "MSBKS78BK",
+            "slug": "msbks78bk",
+            "description": "",
+            "price": 1499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 193,
+        "fields": {
+            "name": "Брюки палаццо черные",
+            "sku": "MSBP68BK",
+            "slug": "msbp68bk",
+            "description": "",
+            "price": 1450.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 194,
+        "fields": {
+            "name": "Брюки полоски лео",
+            "sku": "MSBPB68",
+            "slug": "msbpb68",
+            "description": "",
+            "price": 1450.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 195,
+        "fields": {
+            "name": "Брюки карго",
+            "sku": "POKIBR1963",
+            "slug": "pokibr1963",
+            "description": "",
+            "price": 1450.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 196,
+        "fields": {
+            "name": "Брюки с карманами серые",
+            "sku": "RRGP666",
+            "slug": "rrgp666",
+            "description": "",
+            "price": 1499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 197,
+        "fields": {
+            "name": "Брюки ПАРУС белые",
+            "sku": "T2445WE",
+            "slug": "t2445we",
+            "description": "",
+            "price": 1299.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 198,
+        "fields": {
+            "name": "Брюки спорт с двойной резинкой",
+            "sku": "TFN2314BR",
+            "slug": "tfn2314br",
+            "description": "",
+            "price": 1899.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 199,
+        "fields": {
+            "name": "Брюки карго фиолетовые",
+            "sku": "10530",
+            "slug": "10530",
+            "description": "",
+            "price": 999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 200,
+        "fields": {
+            "name": "Брюки палаццо MIU серые",
+            "sku": "10537",
+            "slug": "10537",
+            "description": "",
+            "price": 1400.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 201,
+        "fields": {
+            "name": "Брюки палаццо белые",
+            "sku": "10532",
+            "slug": "10532",
+            "description": "",
+            "price": 1200.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 202,
+        "fields": {
+            "name": "Джогеры кожаные",
+            "sku": "10547",
+            "slug": "10547",
+            "description": "",
+            "price": 990.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 203,
+        "fields": {
+            "name": "Жилетка черная синтепон",
+            "sku": "239",
+            "slug": "239",
+            "description": "",
+            "price": 1750.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 32
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 204,
+        "fields": {
+            "name": "Жилетка синтепон бежевая",
+            "sku": "BABY05BE",
+            "slug": "baby05be",
+            "description": "",
+            "price": 1750.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 32
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 205,
+        "fields": {
+            "name": "Жилетка черная",
+            "sku": "MJ1102",
+            "slug": "mj1102",
+            "description": "",
+            "price": 1499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 32
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 206,
+        "fields": {
+            "name": "Жилетка кожаная бежевая",
+            "sku": "T1118ZH1",
+            "slug": "t1118zh1",
+            "description": "",
+            "price": 1550.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 32
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 207,
+        "fields": {
+            "name": "Штаны мембрана черные",
+            "sku": "L-355",
+            "slug": "l-355",
+            "description": "",
+            "price": 1699.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 31
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 208,
+        "fields": {
+            "name": "Куртка бомбер серая",
+            "sku": "669",
+            "slug": "669",
+            "description": "",
+            "price": 1999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 30
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 209,
+        "fields": {
+            "name": "Куртка кожаная бежевая",
+            "sku": "8853",
+            "slug": "8853",
+            "description": "",
+            "price": 1850.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 30
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 210,
+        "fields": {
+            "name": "Куртка ветрвока",
+            "sku": "HT165",
+            "slug": "ht165",
+            "description": "",
+            "price": 1999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 30
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 211,
+        "fields": {
+            "name": "Кожаная куртка черная ",
+            "sku": "KUR23251",
+            "slug": "kur23251",
+            "description": "",
+            "price": 2599.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 30
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 212,
+        "fields": {
+            "name": "Куртка бомбер черная",
+            "sku": "MIAO5187KB",
+            "slug": "miao5187kb",
+            "description": "",
+            "price": 2700.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 30
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 213,
+        "fields": {
+            "name": "Куртка бежевая осень длинная с шопером",
+            "sku": "NF626BG",
+            "slug": "nf626bg",
+            "description": "",
+            "price": 3599.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 30
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 214,
+        "fields": {
+            "name": "Куртка кожаная черная",
+            "sku": "T8819",
+            "slug": "t8819",
+            "description": "",
+            "price": 1899.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 30
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 215,
+        "fields": {
+            "name": "Куртка блестящая демисезон",
+            "sku": "9989",
+            "slug": "9989",
+            "description": "",
+            "price": 2699.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 30
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 216,
+        "fields": {
+            "name": "Куртка демисезон бежевая",
+            "sku": "9994",
+            "slug": "9994",
+            "description": "",
+            "price": 2650.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 30
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 217,
+        "fields": {
+            "name": "Тренч бежевый",
+            "sku": "HAIBIN5639T",
+            "slug": "haibin5639t",
+            "description": "",
+            "price": 2550.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 33
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 218,
+        "fields": {
+            "name": "Плащ черный",
+            "sku": "MAISOPL2",
+            "slug": "maisopl2",
+            "description": "",
+            "price": 1850.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 33
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 219,
+        "fields": {
+            "name": "Тренч черный",
+            "sku": "MSTR12BK",
+            "slug": "mstr12bk",
+            "description": "",
+            "price": 2550.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 33
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 220,
+        "fields": {
+            "name": "Тренч джинс",
+            "sku": "MSTR12DZ",
+            "slug": "mstr12dz",
+            "description": "",
+            "price": 2550.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 33
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 221,
+        "fields": {
+            "name": "Зипка утепленная",
+            "sku": "010Y02",
+            "slug": "010y02",
+            "description": "",
+            "price": 1799.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 34
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 222,
+        "fields": {
+            "name": "Свитер серый с шопером",
+            "sku": "16997GY",
+            "slug": "16997gy",
+            "description": "",
+            "price": 1299.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 34
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 223,
+        "fields": {
+            "name": "Свитер синий в полоску",
+            "sku": "95055SBE",
+            "slug": "95055sbe",
+            "description": "",
+            "price": 1899.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 34
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 224,
+        "fields": {
+            "name": "Кардиган на пуговицах",
+            "sku": "LOCCA776",
+            "slug": "locca776",
+            "description": "",
+            "price": 1599.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 34
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 225,
+        "fields": {
+            "name": "Кардиган вязаный синий",
+            "sku": "NNKARD",
+            "slug": "nnkard",
+            "description": "",
+            "price": 1099.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 34
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 226,
+        "fields": {
+            "name": "Свитер комбинированный черный",
+            "sku": "YAYAGZYY685S",
+            "slug": "yayagzyy685s",
+            "description": "",
+            "price": 2199.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 34
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 227,
+        "fields": {
+            "name": "Джинсовая жилетка синяя",
+            "sku": "00050ZHDZ",
+            "slug": "00050zhdz",
+            "description": "",
+            "price": 1799.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 228,
+        "fields": {
+            "name": "Джинсы багги резинка светлосиние",
+            "sku": "1728",
+            "slug": "1728",
+            "description": "",
+            "price": 2499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 229,
+        "fields": {
+            "name": "Джинсовка комбинированная",
+            "sku": "295010D",
+            "slug": "295010d",
+            "description": "",
+            "price": 2599.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 230,
+        "fields": {
+            "name": "Джинсовая куртка анорак комбинированная",
+            "sku": "535485K",
+            "slug": "535485k",
+            "description": "",
+            "price": 2999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 231,
+        "fields": {
+            "name": "Джинсы карго синие",
+            "sku": "85903DZ",
+            "slug": "85903dz",
+            "description": "",
+            "price": 1999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 232,
+        "fields": {
+            "name": "Куртка джинсовая синяя с переходом",
+            "sku": "CHAOTONF",
+            "slug": "chaotonf",
+            "description": "",
+            "price": 1999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 233,
+        "fields": {
+            "name": "Джинсы синие рваные",
+            "sku": "CNK3050-4 ",
+            "slug": "cnk3050-4",
+            "description": "",
+            "price": 1390.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 234,
+        "fields": {
+            "name": "Джинсы черные",
+            "sku": "DF8982",
+            "slug": "df8982",
+            "description": "",
+            "price": 1850.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 235,
+        "fields": {
+            "name": "Джинсы Багги серые",
+            "sku": "GJF4777DZ",
+            "slug": "gjf4777dz",
+            "description": "",
+            "price": 2199.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 236,
+        "fields": {
+            "name": "Джинсы багги синие",
+            "sku": "H2318",
+            "slug": "h2318",
+            "description": "",
+            "price": 2499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 237,
+        "fields": {
+            "name": "Джинсы багги синие",
+            "sku": "H2328",
+            "slug": "h2328",
+            "description": "",
+            "price": 2499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 238,
+        "fields": {
+            "name": "Джинсы карго синие",
+            "sku": "HAIBIN3936DZ",
+            "slug": "haibin3936dz",
+            "description": "",
+            "price": 2299.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 239,
+        "fields": {
+            "name": "Джинсы карго синие",
+            "sku": "JIA88033DZ",
+            "slug": "jia88033dz",
+            "description": "",
+            "price": 1899.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 240,
+        "fields": {
+            "name": "Джинсы рваные",
+            "sku": "KEKETU",
+            "slug": "keketu",
+            "description": "",
+            "price": 1799.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 241,
+        "fields": {
+            "name": "Джинсы хб разноцветные",
+            "sku": "LONG6884",
+            "slug": "long6884",
+            "description": "",
+            "price": 2199.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 242,
+        "fields": {
+            "name": "Куртка джинсовая фиолетовая",
+            "sku": "LYL",
+            "slug": "lyl",
+            "description": "",
+            "price": 1999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 243,
+        "fields": {
+            "name": "Джинсы на цепочке синие",
+            "sku": "MKMD9612",
+            "slug": "mkmd9612",
+            "description": "",
+            "price": 1799.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 244,
+        "fields": {
+            "name": "Джинсы багги чернобелые",
+            "sku": "MOLI8548DZ",
+            "slug": "moli8548dz",
+            "description": "",
+            "price": 1999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 245,
+        "fields": {
+            "name": "Джинсы комбез",
+            "sku": "NNDZHA0328",
+            "slug": "nndzha0328",
+            "description": "",
+            "price": 1800.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 246,
+        "fields": {
+            "name": "Джинсы палаццо синие",
+            "sku": "R2331",
+            "slug": "r2331",
+            "description": "",
+            "price": 2499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 247,
+        "fields": {
+            "name": "Джинсы багги синие",
+            "sku": "R2335",
+            "slug": "r2335",
+            "description": "",
+            "price": 2499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 248,
+        "fields": {
+            "name": "Джинсовая куртка синяя",
+            "sku": "YAYAGZ",
+            "slug": "yayagz",
+            "description": "",
+            "price": 1999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 249,
+        "fields": {
+            "name": "Джинсовая куртка синяя",
+            "sku": "10527",
+            "slug": "10527",
+            "description": "",
+            "price": 1999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 250,
+        "fields": {
+            "name": "Джинсовая куртка синяя",
+            "sku": "10529",
+            "slug": "10529",
+            "description": "",
+            "price": 1999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 251,
+        "fields": {
+            "name": "Джинсовая куртка синяя",
+            "sku": "10528",
+            "slug": "10528",
+            "description": "",
+            "price": 1999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 252,
+        "fields": {
+            "name": "Джинсы багги",
+            "sku": "9737",
+            "slug": "9737",
+            "description": "",
+            "price": 2499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 253,
+        "fields": {
+            "name": "Джинсы багги синие ",
+            "sku": "9973",
+            "slug": "9973",
+            "description": "",
+            "price": 2599.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 254,
+        "fields": {
+            "name": "Джинсы карго синие",
+            "sku": "10544",
+            "slug": "10544",
+            "description": "",
+            "price": 1899.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 255,
+        "fields": {
+            "name": "Джинсы палаццо",
+            "sku": "9722",
+            "slug": "9722",
+            "description": "",
+            "price": 2150.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 256,
+        "fields": {
+            "name": "Джинсы палаццо",
+            "sku": "9728",
+            "slug": "9728",
+            "description": "",
+            "price": 2299.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 257,
+        "fields": {
+            "name": "Джинсы палаццо синие",
+            "sku": "9982",
+            "slug": "9982",
+            "description": "",
+            "price": 2399.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 258,
+        "fields": {
+            "name": "Джинсы палаццо синие",
+            "sku": "10151",
+            "slug": "10151",
+            "description": "",
+            "price": 1899.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 259,
+        "fields": {
+            "name": "Джинсы синие",
+            "sku": "10022",
+            "slug": "10022",
+            "description": "",
+            "price": 2150.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 260,
+        "fields": {
+            "name": "Джинсы синие",
+            "sku": "10032",
+            "slug": "10032",
+            "description": "",
+            "price": 1899.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 261,
+        "fields": {
+            "name": "Джинсы синие",
+            "sku": "9687",
+            "slug": "9687",
+            "description": "",
+            "price": 2499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 262,
+        "fields": {
+            "name": "Джинсы синие крылышки",
+            "sku": "10075",
+            "slug": "10075",
+            "description": "",
+            "price": 2299.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 263,
+        "fields": {
+            "name": "Джинсы синие стразы дырки",
+            "sku": "10161",
+            "slug": "10161",
+            "description": "",
+            "price": 2199.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 35
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 264,
+        "fields": {
+            "name": "Костюм юбка зипка синяя",
+            "sku": "026882K",
+            "slug": "026882k",
+            "description": "",
+            "price": 2999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 265,
+        "fields": {
+            "name": "Костюм джинсовый шорты жилетка белый",
+            "sku": "5892",
+            "slug": "5892",
+            "description": "",
+            "price": 2899.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 266,
+        "fields": {
+            "name": "Костюм джинсовый",
+            "sku": "1188KD",
+            "slug": "1188kd",
+            "description": "",
+            "price": 3800.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 267,
+        "fields": {
+            "name": "Костюм шорты подтяжки футболка",
+            "sku": "123325",
+            "slug": "123325",
+            "description": "",
+            "price": 1999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 268,
+        "fields": {
+            "name": "Костюм поло футболка шорты фиолетовый",
+            "sku": "1328358",
+            "slug": "1328358",
+            "description": "",
+            "price": 1699.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 269,
+        "fields": {
+            "name": "Костюм брюки бомбер черный",
+            "sku": "14836K",
+            "slug": "14836k",
+            "description": "",
+            "price": 3600.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 270,
+        "fields": {
+            "name": "Костюм серый вяз капюшон",
+            "sku": "16417GY",
+            "slug": "16417gy",
+            "description": "",
+            "price": 2050.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 271,
+        "fields": {
+            "name": "Костюм брюки лонг черный",
+            "sku": "1CHAO1491K",
+            "slug": "1chao1491k",
+            "description": "",
+            "price": 2999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 272,
+        "fields": {
+            "name": "Костюм брюки футболка хаки",
+            "sku": "28051",
+            "slug": "28051",
+            "description": "",
+            "price": 2200.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 273,
+        "fields": {
+            "name": "Костюм двойка брюки толстовка фиолетовый",
+            "sku": "31398K22",
+            "slug": "31398k22",
+            "description": "",
+            "price": 1850.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 274,
+        "fields": {
+            "name": "Костюм джинсовый синий",
+            "sku": "34364K2DZ",
+            "slug": "34364k2dz",
+            "description": "",
+            "price": 2999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 275,
+        "fields": {
+            "name": "Костюм юбка майка серый ",
+            "sku": "547821",
+            "slug": "547821",
+            "description": "",
+            "price": 2399.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 276,
+        "fields": {
+            "name": "Костюм шорты футболка в полоску серый ",
+            "sku": "92641243",
+            "slug": "92641243",
+            "description": "",
+            "price": 1499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 277,
+        "fields": {
+            "name": "Костюм брюки пиджак",
+            "sku": "AK6006",
+            "slug": "ak6006",
+            "description": "",
+            "price": 2999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 278,
+        "fields": {
+            "name": "Костюм брюки пиджак MIU ",
+            "sku": "AK7007",
+            "slug": "ak7007",
+            "description": "",
+            "price": 3100.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 279,
+        "fields": {
+            "name": "Костюм велюр черный",
+            "sku": "ALTYNK11",
+            "slug": "altynk11",
+            "description": "",
+            "price": 2499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 280,
+        "fields": {
+            "name": "Костюм брюки короткий пиджак белый ",
+            "sku": "AMIRK3113",
+            "slug": "amirk3113",
+            "description": "",
+            "price": 2499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 281,
+        "fields": {
+            "name": "Костюм платье пиджак фуксия ",
+            "sku": "5322",
+            "slug": "5322",
+            "description": "",
+            "price": 2850.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 282,
+        "fields": {
+            "name": "Костюм тройка летний майка рубашка шорты белый",
+            "sku": "ATW2354",
+            "slug": "atw2354",
+            "description": "",
+            "price": 2300.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 283,
+        "fields": {
+            "name": "Костюм рубашка брюки шелк черный",
+            "sku": "BANELK312",
+            "slug": "banelk312",
+            "description": "",
+            "price": 1999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 284,
+        "fields": {
+            "name": "Костюм брюки топ черный",
+            "sku": "BOMBK2BRTOP",
+            "slug": "bombk2brtop",
+            "description": "",
+            "price": 1899.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 285,
+        "fields": {
+            "name": "Костюм шорты кроптоп серый",
+            "sku": "BOMBK2KASH",
+            "slug": "bombk2kash",
+            "description": "",
+            "price": 1799.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 286,
+        "fields": {
+            "name": "Костюм джинсы джинсовка синий",
+            "sku": "CTF",
+            "slug": "ctf",
+            "description": "",
+            "price": 2999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 287,
+        "fields": {
+            "name": "Костюм юбка блузка пайетки черный",
+            "sku": "EK0446BK",
+            "slug": "ek0446bk",
+            "description": "",
+            "price": 2590.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 288,
+        "fields": {
+            "name": "Костюм футболка шорты бежевый",
+            "sku": "EK05386",
+            "slug": "ek05386",
+            "description": "",
+            "price": 1699.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 289,
+        "fields": {
+            "name": "Костюм двойка юбка туника",
+            "sku": "ERDK2KA10",
+            "slug": "erdk2ka10",
+            "description": "",
+            "price": 1999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 290,
+        "fields": {
+            "name": "Костюм серый клеш зипка",
+            "sku": "JIA05722K",
+            "slug": "jia05722k",
+            "description": "",
+            "price": 2999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 291,
+        "fields": {
+            "name": "Костюм серый клеш толстовка",
+            "sku": "JIA88030K",
+            "slug": "jia88030k",
+            "description": "",
+            "price": 2999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 292,
+        "fields": {
+            "name": "Костюм юбка жилетка черный",
+            "sku": "KID9711K",
+            "slug": "kid9711k",
+            "description": "",
+            "price": 2299.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 293,
+        "fields": {
+            "name": "Костюм шорты безрукавка на молнии",
+            "sku": "LILIKSHZH16423",
+            "slug": "lilikshzh16423",
+            "description": "",
+            "price": 1499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 294,
+        "fields": {
+            "name": "Костюм карго топ",
+            "sku": "LONG9824K",
+            "slug": "long9824k",
+            "description": "",
+            "price": 2599.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 295,
+        "fields": {
+            "name": "Костюм двойка трикотаж тонкий кофе",
+            "sku": "M0506",
+            "slug": "m0506",
+            "description": "",
+            "price": 1990.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 296,
+        "fields": {
+            "name": "Костюм джинсовый с юбкой черный",
+            "sku": "MKMD",
+            "slug": "mkmd",
+            "description": "",
+            "price": 2999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 297,
+        "fields": {
+            "name": "Костюм брюки пиджак бежевый",
+            "sku": "QIMUTONG4883K",
+            "slug": "qimutong4883k",
+            "description": "",
+            "price": 3499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 298,
+        "fields": {
+            "name": "Костюм толстовка карго",
+            "sku": "QSYU1604K",
+            "slug": "qsyu1604k",
+            "description": "",
+            "price": 2899.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 299,
+        "fields": {
+            "name": "Костюм двойка юбка джинсовка",
+            "sku": "ROZ",
+            "slug": "roz",
+            "description": "",
+            "price": 2499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 300,
+        "fields": {
+            "name": "Костюм велюр черный",
+            "sku": "SA6652BK",
+            "slug": "sa6652bk",
+            "description": "",
+            "price": 2200.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 301,
+        "fields": {
+            "name": "Костюм роза",
+            "sku": "TAT2113",
+            "slug": "tat2113",
+            "description": "",
+            "price": 1890.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 302,
+        "fields": {
+            "name": "Костюм кристи",
+            "sku": "TAT2311",
+            "slug": "tat2311",
+            "description": "",
+            "price": 1990.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 303,
+        "fields": {
+            "name": "Костюм брюки зипка ",
+            "sku": "TW28",
+            "slug": "tw28",
+            "description": "",
+            "price": 2799.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 304,
+        "fields": {
+            "name": "Костюм брюки клеш топ",
+            "sku": "XINGC2409K",
+            "slug": "xingc2409k",
+            "description": "",
+            "price": 2199.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 305,
+        "fields": {
+            "name": "Джиннсы карго синие",
+            "sku": "XINGC2440DZ",
+            "slug": "xingc2440dz",
+            "description": "",
+            "price": 2199.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 306,
+        "fields": {
+            "name": "Костюм брюки топ джинсовый бежевый",
+            "sku": "YYGZ",
+            "slug": "yygz",
+            "description": "",
+            "price": 2399.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 307,
+        "fields": {
+            "name": "Костюм брюки бомбер белый",
+            "sku": "10015",
+            "slug": "10015",
+            "description": "",
+            "price": 3600.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 308,
+        "fields": {
+            "name": "Костюм двойка брюки футболка черный",
+            "sku": "9823",
+            "slug": "9823",
+            "description": "",
+            "price": 1699.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 309,
+        "fields": {
+            "name": "Костюм детский Cracker",
+            "sku": "1747",
+            "slug": "1747",
+            "description": "",
+            "price": 1000.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 310,
+        "fields": {
+            "name": "Костюм джинсовый синий",
+            "sku": "10193",
+            "slug": "10193",
+            "description": "",
+            "price": 3750.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 311,
+        "fields": {
+            "name": "Костюм джинсы топ синий",
+            "sku": "10053",
+            "slug": "10053",
+            "description": "",
+            "price": 2550.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 312,
+        "fields": {
+            "name": "Костюм зипка брюки черный",
+            "sku": "10070",
+            "slug": "10070",
+            "description": "",
+            "price": 2999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 313,
+        "fields": {
+            "name": "Костюм летний белый",
+            "sku": "10083",
+            "slug": "10083",
+            "description": "",
+            "price": 3399.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 314,
+        "fields": {
+            "name": "Костюм серый брюки майка",
+            "sku": "10122",
+            "slug": "10122",
+            "description": "",
+            "price": 2890.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 315,
+        "fields": {
+            "name": "Костюм тройка кор рукав",
+            "sku": "9940",
+            "slug": "9940",
+            "description": "",
+            "price": 1599.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 316,
+        "fields": {
+            "name": "Костюм тройка черный",
+            "sku": "9885",
+            "slug": "9885",
+            "description": "",
+            "price": 1699.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 317,
+        "fields": {
+            "name": "Костюм шорты футболка бежевый",
+            "sku": "10135",
+            "slug": "10135",
+            "description": "",
+            "price": 2499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 318,
+        "fields": {
+            "name": "Костюм шорты футболка белый",
+            "sku": "10207",
+            "slug": "10207",
+            "description": "",
+            "price": 2100.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 319,
+        "fields": {
+            "name": "Костюм шорты футболка в полоску",
+            "sku": "10064",
+            "slug": "10064",
+            "description": "",
+            "price": 2099.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 320,
+        "fields": {
+            "name": "Костюм шорты футболка лампас черный",
+            "sku": "9961",
+            "slug": "9961",
+            "description": "",
+            "price": 1350.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 321,
+        "fields": {
+            "name": "Костюм юбка топ хаки",
+            "sku": "10201",
+            "slug": "10201",
+            "description": "",
+            "price": 2599.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 322,
+        "fields": {
+            "name": "Купальник желтый",
+            "sku": "9753",
+            "slug": "9753",
+            "description": "",
+            "price": 1050.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 40
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 323,
+        "fields": {
+            "name": "Купальник зеленый",
+            "sku": "9762",
+            "slug": "9762",
+            "description": "",
+            "price": 1050.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 40
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 324,
+        "fields": {
+            "name": "Купальник салатовый",
+            "sku": "9819",
+            "slug": "9819",
+            "description": "",
+            "price": 1099.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 40
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 325,
+        "fields": {
+            "name": "Купальник фиолетовый",
+            "sku": "9748",
+            "slug": "9748",
+            "description": "",
+            "price": 1099.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 40
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 326,
+        "fields": {
+            "name": "Купальник черный",
+            "sku": "9743",
+            "slug": "9743",
+            "description": "",
+            "price": 1050.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 40
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 327,
+        "fields": {
+            "name": "Трусы",
+            "sku": "140253-4",
+            "slug": "140253-4",
+            "description": "",
+            "price": 190.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 39
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 328,
+        "fields": {
+            "name": "Трусы",
+            "sku": "142243",
+            "slug": "142243",
+            "description": "",
+            "price": 190.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 39
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 329,
+        "fields": {
+            "name": "Трусы",
+            "sku": "142253",
+            "slug": "142253",
+            "description": "",
+            "price": 190.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 39
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 330,
+        "fields": {
+            "name": "Трусы",
+            "sku": "142493",
+            "slug": "142493",
+            "description": "",
+            "price": 190.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 39
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 331,
+        "fields": {
+            "name": "Топ лиф для девочки ",
+            "sku": "BEAUTY889",
+            "slug": "beauty889",
+            "description": "",
+            "price": 299.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 39
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 332,
+        "fields": {
+            "name": "Топ лиф для девочки ",
+            "sku": "BIYO118",
+            "slug": "biyo118",
+            "description": "",
+            "price": 420.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 39
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 333,
+        "fields": {
+            "name": "Топ лиф для девочки ",
+            "sku": "BIYO119",
+            "slug": "biyo119",
+            "description": "",
+            "price": 420.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 39
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 334,
+        "fields": {
+            "name": "Топ лиф для девочки ",
+            "sku": "KAIFEI054",
+            "slug": "kaifei054",
+            "description": "",
+            "price": 450.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 39
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 335,
+        "fields": {
+            "name": "Топ лифчик с застежками",
+            "sku": "LAVOLLE8840",
+            "slug": "lavolle8840",
+            "description": "",
+            "price": 599.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 39
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 336,
+        "fields": {
+            "name": "Майка белая",
+            "sku": "7465",
+            "slug": "7465",
+            "description": "",
+            "price": 350.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 39
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 337,
+        "fields": {
+            "name": "Майка белая",
+            "sku": "3370",
+            "slug": "3370",
+            "description": "",
+            "price": 200.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 39
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 338,
+        "fields": {
+            "name": "Топ лиф для девочки ",
+            "sku": "SUINIAN15",
+            "slug": "suinian15",
+            "description": "",
+            "price": 299.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 39
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 339,
+        "fields": {
+            "name": "Топ лиф для девочки ",
+            "sku": "TOP777-888",
+            "slug": "top777-888",
+            "description": "",
+            "price": 250.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 39
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 340,
+        "fields": {
+            "name": "Пижама короткий рукав шорты",
+            "sku": "0504-1",
+            "slug": "0504-1",
+            "description": "",
+            "price": 1299.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 38
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 341,
+        "fields": {
+            "name": "Пижама дл рукав красная",
+            "sku": "MILANAPING",
+            "slug": "milanaping",
+            "description": "",
+            "price": 1350.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 38
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 342,
+        "fields": {
+            "name": "Пижама коричневая клетка",
+            "sku": "MILANAPKLET",
+            "slug": "milanapklet",
+            "description": "",
+            "price": 1499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 38
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 343,
+        "fields": {
+            "name": "Пижама для девочки подарки черная",
+            "sku": "MILANAPNG3",
+            "slug": "milanapng3",
+            "description": "",
+            "price": 1250.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 38
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 344,
+        "fields": {
+            "name": "Пижама для девочки снеговик и пингвин бордовая",
+            "sku": "MILANAPNG4",
+            "slug": "milanapng4",
+            "description": "",
+            "price": 1250.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 38
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 345,
+        "fields": {
+            "name": " Босоножки кориченвые",
+            "sku": "6S-11",
+            "slug": "6s-11",
+            "description": "",
+            "price": 1799.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 19
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 346,
+        "fields": {
+            "name": "Босоножки сетка бежевые",
+            "sku": "V30-10",
+            "slug": "v30-10",
+            "description": "",
+            "price": 1699.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 19
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 347,
+        "fields": {
+            "name": "Босоножки белые",
+            "sku": "V30-19 ",
+            "slug": "v30-19",
+            "description": "",
+            "price": 1650.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 19
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 348,
+        "fields": {
+            "name": "Босоножки черные ",
+            "sku": "ИРИНАQQ18-12",
+            "slug": "qq18-12",
+            "description": "",
+            "price": 1699.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 19
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 349,
+        "fields": {
+            "name": "Босоножки белые",
+            "sku": "ИРИНАQQ18-14",
+            "slug": "qq18-14",
+            "description": "",
+            "price": 1699.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 20
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 350,
+        "fields": {
+            "name": "Сабо мюли беж пят",
+            "sku": "9775",
+            "slug": "9775",
+            "description": "",
+            "price": 1499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 19
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 351,
+        "fields": {
+            "name": "Сабо мюли кэмл бпят",
+            "sku": "9783",
+            "slug": "9783",
+            "description": "",
+            "price": 1499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 19
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 352,
+        "fields": {
+            "name": "Кроссовки",
+            "sku": "105-1A33",
+            "slug": "105-1a33",
+            "description": "",
+            "price": 1599.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 18
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 353,
+        "fields": {
+            "name": "Кроссовки черные",
+            "sku": "215-1A",
+            "slug": "215-1a",
+            "description": "",
+            "price": 1550.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 18
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 354,
+        "fields": {
+            "name": "Кроссовки бежевые",
+            "sku": "215-2A",
+            "slug": "215-2a",
+            "description": "",
+            "price": 1550.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 18
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 355,
+        "fields": {
+            "name": "Ботинки осень",
+            "sku": "AL058",
+            "slug": "al058",
+            "description": "",
+            "price": 1750.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 18
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 356,
+        "fields": {
+            "name": "Кроссовки бежевые осень",
+            "sku": "C309363",
+            "slug": "c309363",
+            "description": "",
+            "price": 1750.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 18
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 357,
+        "fields": {
+            "name": "Ботинки осень",
+            "sku": "C30948",
+            "slug": "c30948",
+            "description": "",
+            "price": 1999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 18
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 358,
+        "fields": {
+            "name": "Кроссовки белые",
+            "sku": "L01-6A",
+            "slug": "l01-6a",
+            "description": "",
+            "price": 1550.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 18
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 359,
+        "fields": {
+            "name": "Кроссовки",
+            "sku": "L05-3A",
+            "slug": "l05-3a",
+            "description": "",
+            "price": 1550.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 18
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 360,
+        "fields": {
+            "name": "Кроссовки",
+            "sku": "L21-2A",
+            "slug": "l21-2a",
+            "description": "",
+            "price": 1550.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 18
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 361,
+        "fields": {
+            "name": "Кроссовки зимние черно-белые",
+            "sku": "R3450-3",
+            "slug": "r3450-3",
+            "description": "",
+            "price": 1799.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 18
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 362,
+        "fields": {
+            "name": "Кроссовки зимние черно-белые",
+            "sku": "R3452-1",
+            "slug": "r3452-1",
+            "description": "",
+            "price": 2250.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 18
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 363,
+        "fields": {
+            "name": "Лоферы черные",
+            "sku": "LP188",
+            "slug": "lp188",
+            "description": "",
+            "price": 1899.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 21
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 364,
+        "fields": {
+            "name": "Лоферы черные",
+            "sku": "P154-1",
+            "slug": "p154-1",
+            "description": "",
+            "price": 1290.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 21
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 365,
+        "fields": {
+            "name": "Лоферы серые",
+            "sku": "P175-5",
+            "slug": "p175-5",
+            "description": "",
+            "price": 1450.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 21
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 366,
+        "fields": {
+            "name": "Лоферы черные с ремешком",
+            "sku": "P202-3",
+            "slug": "p202-3",
+            "description": "",
+            "price": 1599.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 21
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 367,
+        "fields": {
+            "name": "Босоножки черные",
+            "sku": "S808-3",
+            "slug": "s808-3",
+            "description": "",
+            "price": 999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 21
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 368,
+        "fields": {
+            "name": "Босоножки школьные",
+            "sku": "S88-5-1",
+            "slug": "s88-5-1",
+            "description": "",
+            "price": 1100.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 21
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 369,
+        "fields": {
+            "name": "Босоножки черные ",
+            "sku": "SS9-2",
+            "slug": "ss9-2",
+            "description": "",
+            "price": 1350.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 21
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 370,
+        "fields": {
+            "name": "Сапоги зимние белые дут",
+            "sku": "881-3-3",
+            "slug": "881-3-3",
+            "description": "",
+            "price": 1699.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 20
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 371,
+        "fields": {
+            "name": "Платье черное",
+            "sku": "1540862",
+            "slug": "1540862",
+            "description": "",
+            "price": 1799.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 16
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 372,
+        "fields": {
+            "name": "Платье серебристое",
+            "sku": "EKPLDIS4",
+            "slug": "ekpldis4",
+            "description": "",
+            "price": 1500.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 16
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 373,
+        "fields": {
+            "name": "Платье кожаное черное",
+            "sku": "FASHIONPLK2",
+            "slug": "fashionplk2",
+            "description": "",
+            "price": 1000.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 16
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 374,
+        "fields": {
+            "name": "Платье нарядное горох белое ",
+            "sku": "SCHDETPGOR",
+            "slug": "schdetpgor",
+            "description": "",
+            "price": 1599.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 16
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 375,
+        "fields": {
+            "name": "Платье нарядное короткий рукав серебро",
+            "sku": "SCHDETPKR",
+            "slug": "schdetpkr",
+            "description": "",
+            "price": 1499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 16
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 376,
+        "fields": {
+            "name": "Платье черное",
+            "sku": "TAT21002",
+            "slug": "tat21002",
+            "description": "",
+            "price": 1400.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 16
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 377,
+        "fields": {
+            "name": "Платье роза",
+            "sku": "TAT2123",
+            "slug": "tat2123",
+            "description": "",
+            "price": 1400.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 16
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 378,
+        "fields": {
+            "name": "Платье крестьянка",
+            "sku": "TAT2130",
+            "slug": "tat2130",
+            "description": "",
+            "price": 1400.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 16
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 379,
+        "fields": {
+            "name": "Платье летнее белое",
+            "sku": "10102",
+            "slug": "10102",
+            "description": "",
+            "price": 1799.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 16
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 380,
+        "fields": {
+            "name": "Платье летнее черное ",
+            "sku": "10108",
+            "slug": "10108",
+            "description": "",
+            "price": 1799.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 16
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 381,
+        "fields": {
+            "name": "Платье ",
+            "sku": "10114",
+            "slug": "10114",
+            "description": "",
+            "price": 1499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 16
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 382,
+        "fields": {
+            "name": "Платье",
+            "sku": "10048",
+            "slug": "10048",
+            "description": "",
+            "price": 1899.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 16
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 383,
+        "fields": {
+            "name": "Платье футболка",
+            "sku": "10127",
+            "slug": "10127",
+            "description": "",
+            "price": 1650.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 16
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 384,
+        "fields": {
+            "name": "Платье футболка",
+            "sku": "10139",
+            "slug": "10139",
+            "description": "",
+            "price": 1799.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 16
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 385,
+        "fields": {
+            "name": "Платье черное",
+            "sku": "10118",
+            "slug": "10118",
+            "description": "",
+            "price": 1599.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 16
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 386,
+        "fields": {
+            "name": "Рубашка клетка топ двойка",
+            "sku": "10485",
+            "slug": "10485",
+            "description": "",
+            "price": 1450.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 36
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 387,
+        "fields": {
+            "name": "Блузка с перышком",
+            "sku": "AMKBL",
+            "slug": "amkbl",
+            "description": "",
+            "price": 990.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 36
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 388,
+        "fields": {
+            "name": "Двойка блузка жилет",
+            "sku": "BBTX5461",
+            "slug": "bbtx5461",
+            "description": "",
+            "price": 2400.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 36
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 389,
+        "fields": {
+            "name": "Рубашка однотонная",
+            "sku": "ERKAIRUBOD",
+            "slug": "erkairubod",
+            "description": "",
+            "price": 1599.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 36
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 390,
+        "fields": {
+            "name": "Рубашка синяя",
+            "sku": "10057",
+            "slug": "10057",
+            "description": "",
+            "price": 1499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 36
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 391,
+        "fields": {
+            "name": "Худи серая",
+            "sku": "AH-2523",
+            "slug": "ah-2523",
+            "description": "",
+            "price": 1550.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 15
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 392,
+        "fields": {
+            "name": "Лонг молния черный",
+            "sku": "ALS0067LBK",
+            "slug": "als0067lbk",
+            "description": "",
+            "price": 1299.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 15
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 393,
+        "fields": {
+            "name": "Толстовка",
+            "sku": "EK0667",
+            "slug": "ek0667",
+            "description": "",
+            "price": 1550.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 15
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 394,
+        "fields": {
+            "name": "Двойка лонг майка бежевая",
+            "sku": "ERD70BE",
+            "slug": "erd70be",
+            "description": "",
+            "price": 1260.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 15
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 395,
+        "fields": {
+            "name": "Лонгслив длинный рукав фонарик фатин кофе",
+            "sku": "ERDLONGDR",
+            "slug": "erdlongdr",
+            "description": "",
+            "price": 999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 15
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 396,
+        "fields": {
+            "name": "Худи бежевая",
+            "sku": "HW705BE",
+            "slug": "hw705be",
+            "description": "",
+            "price": 1499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 15
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 397,
+        "fields": {
+            "name": "Лонг перышки ",
+            "sku": "K195",
+            "slug": "k195",
+            "description": "",
+            "price": 1300.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 15
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 398,
+        "fields": {
+            "name": "Лонг хаки",
+            "sku": "MEIYAYA2096L",
+            "slug": "meiyaya2096l",
+            "description": "",
+            "price": 1450.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 15
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 399,
+        "fields": {
+            "name": "Двойка лонг майка хаки",
+            "sku": "MY-03",
+            "slug": "my-03",
+            "description": "",
+            "price": 1399.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 15
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 400,
+        "fields": {
+            "name": "Водолазка белая",
+            "sku": "N601WE",
+            "slug": "n601we",
+            "description": "",
+            "price": 999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 15
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 401,
+        "fields": {
+            "name": "Лонгслив с разрезам",
+            "sku": "SARALONG143",
+            "slug": "saralong143",
+            "description": "",
+            "price": 899.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 15
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 402,
+        "fields": {
+            "name": "Лонгслив белый",
+            "sku": "10177",
+            "slug": "10177",
+            "description": "",
+            "price": 1399.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 15
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 403,
+        "fields": {
+            "name": "Лонгслив серый с разрезами",
+            "sku": "10068",
+            "slug": "10068",
+            "description": "",
+            "price": 1350.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 15
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 404,
+        "fields": {
+            "name": "Футболка синяя тайдай",
+            "sku": "211943",
+            "slug": "211943",
+            "description": "",
+            "price": 850.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 405,
+        "fields": {
+            "name": "Футболка синяя",
+            "sku": "23А506",
+            "slug": "23506",
+            "description": "",
+            "price": 600.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 406,
+        "fields": {
+            "name": "Футболка розовая",
+            "sku": "3DUZ5209",
+            "slug": "3duz5209",
+            "description": "",
+            "price": 750.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 407,
+        "fields": {
+            "name": "Футболка MIU беж",
+            "sku": "3DYZ5194",
+            "slug": "3dyz5194",
+            "description": "",
+            "price": 899.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 408,
+        "fields": {
+            "name": "Майка топ белая",
+            "sku": "5330",
+            "slug": "5330",
+            "description": "",
+            "price": 999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 409,
+        "fields": {
+            "name": "Майка топ черно белая",
+            "sku": "5331",
+            "slug": "5331",
+            "description": "",
+            "price": 1099.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 410,
+        "fields": {
+            "name": "Майка топ черная",
+            "sku": "5342",
+            "slug": "5342",
+            "description": "",
+            "price": 999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 411,
+        "fields": {
+            "name": "Футболка кроп то",
+            "sku": "ALTYNWAYER",
+            "slug": "altynwayer",
+            "description": "",
+            "price": 750.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 412,
+        "fields": {
+            "name": "Футболка топ белая",
+            "sku": "GJF8341FWE",
+            "slug": "gjf8341fwe",
+            "description": "",
+            "price": 999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 413,
+        "fields": {
+            "name": "Футболка надписи",
+            "sku": "HT1727",
+            "slug": "ht1727",
+            "description": "",
+            "price": 799.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 414,
+        "fields": {
+            "name": "Футболка GAP",
+            "sku": "HT1728",
+            "slug": "ht1728",
+            "description": "",
+            "price": 750.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 415,
+        "fields": {
+            "name": "Футболка МиккиМаус",
+            "sku": "HT1984",
+            "slug": "ht1984",
+            "description": "",
+            "price": 890.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 416,
+        "fields": {
+            "name": "Футболка",
+            "sku": "HT1989",
+            "slug": "ht1989",
+            "description": "",
+            "price": 799.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 417,
+        "fields": {
+            "name": "Футболка варенка",
+            "sku": "HT1992",
+            "slug": "ht1992",
+            "description": "",
+            "price": 899.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 418,
+        "fields": {
+            "name": "Футболка однотонная",
+            "sku": "HT1993",
+            "slug": "ht1993",
+            "description": "",
+            "price": 799.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 419,
+        "fields": {
+            "name": "Футболка с рукавом фатин",
+            "sku": "KOKOFR",
+            "slug": "kokofr",
+            "description": "",
+            "price": 799.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 420,
+        "fields": {
+            "name": "Футболка черная",
+            "sku": "LEMONBABYF",
+            "slug": "lemonbabyf",
+            "description": "",
+            "price": 1150.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 421,
+        "fields": {
+            "name": "Футболка-топ синяя",
+            "sku": "MX6411",
+            "slug": "mx6411",
+            "description": "",
+            "price": 950.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 422,
+        "fields": {
+            "name": "Майка лапша",
+            "sku": "NN7512",
+            "slug": "nn7512",
+            "description": "",
+            "price": 890.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 423,
+        "fields": {
+            "name": "Майка со стразами белая",
+            "sku": "NNMAI313",
+            "slug": "nnmai313",
+            "description": "",
+            "price": 1050.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 424,
+        "fields": {
+            "name": "Футолка фиолетовая",
+            "sku": "P-05VL",
+            "slug": "p-05vl",
+            "description": "",
+            "price": 799.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 425,
+        "fields": {
+            "name": "Футболка однотонная",
+            "sku": "SLONMIF",
+            "slug": "slonmif",
+            "description": "",
+            "price": 300.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 426,
+        "fields": {
+            "name": "Майка топ серая",
+            "sku": "XINGX2440T",
+            "slug": "xingx2440t",
+            "description": "",
+            "price": 999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 427,
+        "fields": {
+            "name": "Двойка майка сетка",
+            "sku": "9901",
+            "slug": "9901",
+            "description": "",
+            "price": 950.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 428,
+        "fields": {
+            "name": "Лонгслив хаки",
+            "sku": "9798",
+            "slug": "9798",
+            "description": "",
+            "price": 1350.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 429,
+        "fields": {
+            "name": "Майка лапша",
+            "sku": "10536",
+            "slug": "10536",
+            "description": "",
+            "price": 700.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 430,
+        "fields": {
+            "name": "Майка разрез",
+            "sku": "10232",
+            "slug": "10232",
+            "description": "",
+            "price": 1199.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 431,
+        "fields": {
+            "name": "Футболка белая ",
+            "sku": "9915",
+            "slug": "9915",
+            "description": "",
+            "price": 799.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 432,
+        "fields": {
+            "name": "Футболка белая имитация",
+            "sku": "10229",
+            "slug": "10229",
+            "description": "",
+            "price": 1299.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 433,
+        "fields": {
+            "name": "Футболка",
+            "sku": "10044",
+            "slug": "10044",
+            "description": "",
+            "price": 1199.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 434,
+        "fields": {
+            "name": "Футболка",
+            "sku": "10047",
+            "slug": "10047",
+            "description": "",
+            "price": 999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 435,
+        "fields": {
+            "name": "Футболка утяжки",
+            "sku": "10182",
+            "slug": "10182",
+            "description": "",
+            "price": 999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 436,
+        "fields": {
+            "name": "Футболка молния",
+            "sku": "10043",
+            "slug": "10043",
+            "description": "",
+            "price": 1299.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 437,
+        "fields": {
+            "name": "Футболка поло",
+            "sku": "9801",
+            "slug": "9801",
+            "description": "",
+            "price": 999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 438,
+        "fields": {
+            "name": "Футболка поло фиолетовая",
+            "sku": "10531",
+            "slug": "10531",
+            "description": "",
+            "price": 899.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 439,
+        "fields": {
+            "name": "Футболка тайдай",
+            "sku": "10219",
+            "slug": "10219",
+            "description": "",
+            "price": 1350.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 440,
+        "fields": {
+            "name": "Футболка тайдай",
+            "sku": "10166",
+            "slug": "10166",
+            "description": "",
+            "price": 1299.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 441,
+        "fields": {
+            "name": "Футболка топ черная ",
+            "sku": "10149",
+            "slug": "10149",
+            "description": "",
+            "price": 899.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 442,
+        "fields": {
+            "name": "Футболка цепь",
+            "sku": "9719",
+            "slug": "9719",
+            "description": "",
+            "price": 750.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 443,
+        "fields": {
+            "name": "Футболка черная",
+            "sku": "9678",
+            "slug": "9678",
+            "description": "",
+            "price": 899.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 444,
+        "fields": {
+            "name": "Футболка черная",
+            "sku": "9911",
+            "slug": "9911",
+            "description": "",
+            "price": 799.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 28
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 445,
+        "fields": {
+            "name": "Рубашка полоска",
+            "sku": "10470",
+            "slug": "10470",
+            "description": "",
+            "price": 1099.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 22
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 446,
+        "fields": {
+            "name": "Блузка белая дл рукав",
+            "sku": "A-978",
+            "slug": "a-978",
+            "description": "",
+            "price": 990.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 22
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 447,
+        "fields": {
+            "name": "Блузка белая дл рукав",
+            "sku": "B002",
+            "slug": "b002",
+            "description": "",
+            "price": 1100.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 22
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 448,
+        "fields": {
+            "name": "Блузка белая дл рукав",
+            "sku": "B053",
+            "slug": "b053",
+            "description": "",
+            "price": 1000.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 22
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 449,
+        "fields": {
+            "name": "Блузка белая дл рукав",
+            "sku": "EVE3003",
+            "slug": "eve3003",
+            "description": "",
+            "price": 1199.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 22
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 450,
+        "fields": {
+            "name": "Блузка белая дл рукав",
+            "sku": "GU-202",
+            "slug": "gu-202",
+            "description": "",
+            "price": 1099.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 22
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 451,
+        "fields": {
+            "name": "Блузка белая дл рукав",
+            "sku": "GU-207",
+            "slug": "gu-207",
+            "description": "",
+            "price": 999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 22
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 452,
+        "fields": {
+            "name": "Блузка белая дл рукав",
+            "sku": "GU-234",
+            "slug": "gu-234",
+            "description": "",
+            "price": 1400.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 22
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 453,
+        "fields": {
+            "name": "Блузка белая дл рукав",
+            "sku": "TA0138",
+            "slug": "ta0138",
+            "description": "",
+            "price": 1150.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 22
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 454,
+        "fields": {
+            "name": "Блузка белая кор рукав",
+            "sku": "10542",
+            "slug": "10542",
+            "description": "",
+            "price": 1250.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 22
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 455,
+        "fields": {
+            "name": "Блузка белая кор рукав",
+            "sku": "10543",
+            "slug": "10543",
+            "description": "",
+            "price": 1100.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 22
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 456,
+        "fields": {
+            "name": "Блузка белая кор рукав",
+            "sku": "10540",
+            "slug": "10540",
+            "description": "",
+            "price": 1100.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 22
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 457,
+        "fields": {
+            "name": "Блузка белая дл рукав",
+            "sku": "10541",
+            "slug": "10541",
+            "description": "",
+            "price": 1350.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 22
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 458,
+        "fields": {
+            "name": "Брюки синие",
+            "sku": "7A36940",
+            "slug": "7a36940",
+            "description": "",
+            "price": 1450.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 459,
+        "fields": {
+            "name": "Брюки синие",
+            "sku": "7A376TP",
+            "slug": "7a376tp",
+            "description": "",
+            "price": 1499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 460,
+        "fields": {
+            "name": "Брюки черные",
+            "sku": "BWY7A373-2",
+            "slug": "bwy7a373-2",
+            "description": "",
+            "price": 1550.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 461,
+        "fields": {
+            "name": "Брюки школьные",
+            "sku": "EK05504",
+            "slug": "ek05504",
+            "description": "",
+            "price": 1449.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 462,
+        "fields": {
+            "name": "Брюки школьные",
+            "sku": "EK0562",
+            "slug": "ek0562",
+            "description": "",
+            "price": 1350.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 463,
+        "fields": {
+            "name": "Брюки школьные",
+            "sku": "EK0565",
+            "slug": "ek0565",
+            "description": "",
+            "price": 1400.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 464,
+        "fields": {
+            "name": "Брюки школьные",
+            "sku": "EKBR0255",
+            "slug": "ekbr0255",
+            "description": "",
+            "price": 1450.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 465,
+        "fields": {
+            "name": "Брюки школьные",
+            "sku": "EKBR668",
+            "slug": "ekbr668",
+            "description": "",
+            "price": 1300.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 466,
+        "fields": {
+            "name": "Брюки школьные",
+            "sku": "JYD195",
+            "slug": "jyd195",
+            "description": "",
+            "price": 1590.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 467,
+        "fields": {
+            "name": "Брюки школьные",
+            "sku": "JYD698",
+            "slug": "jyd698",
+            "description": "",
+            "price": 1499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 468,
+        "fields": {
+            "name": "Брюки школьные",
+            "sku": "MRY0001/01",
+            "slug": "mry000101",
+            "description": "",
+            "price": 1599.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 469,
+        "fields": {
+            "name": "Брюки школьные",
+            "sku": "NNBRSHZAM002",
+            "slug": "nnbrshzam002",
+            "description": "",
+            "price": 1190.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 470,
+        "fields": {
+            "name": "Брюки школьные",
+            "sku": "10538",
+            "slug": "10538",
+            "description": "",
+            "price": 1100.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 471,
+        "fields": {
+            "name": "Брюки спортивные",
+            "sku": "THTC2",
+            "slug": "thtc2",
+            "description": "",
+            "price": 750.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 27
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 472,
+        "fields": {
+            "name": "Брюки спортивные",
+            "sku": "THTXC2",
+            "slug": "thtxc2",
+            "description": "",
+            "price": 750.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 27
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 473,
+        "fields": {
+            "name": "Костюм юбка жилетка",
+            "sku": "11734",
+            "slug": "11734",
+            "description": "",
+            "price": 2900.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 23
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 474,
+        "fields": {
+            "name": "Костюм пиджак брюки",
+            "sku": "EKK3091",
+            "slug": "ekk3091",
+            "description": "",
+            "price": 3250.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 23
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 475,
+        "fields": {
+            "name": "Костюм жилетка брюки",
+            "sku": "EKK425",
+            "slug": "ekk425",
+            "description": "",
+            "price": 2999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 23
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 476,
+        "fields": {
+            "name": "Костюм жилетка брюки",
+            "sku": "EKK6742",
+            "slug": "ekk6742",
+            "description": "",
+            "price": 2699.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 23
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 477,
+        "fields": {
+            "name": "Костюм пиджак брюки синий",
+            "sku": "EKK9752",
+            "slug": "ekk9752",
+            "description": "",
+            "price": 3250.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 23
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 478,
+        "fields": {
+            "name": "Костюм юбка бомбер на клепках",
+            "sku": "TANO1120",
+            "slug": "tano1120",
+            "description": "",
+            "price": 2299.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 23
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 479,
+        "fields": {
+            "name": "Костюм юбка бомбер на замке",
+            "sku": "TANO1150",
+            "slug": "tano1150",
+            "description": "",
+            "price": 2350.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 23
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 480,
+        "fields": {
+            "name": "Костюм юбка пиджак",
+            "sku": "TANO3333",
+            "slug": "tano3333",
+            "description": "",
+            "price": 2499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 23
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 481,
+        "fields": {
+            "name": "Костюм брюки пиджак",
+            "sku": "TANO4443",
+            "slug": "tano4443",
+            "description": "",
+            "price": 2499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 23
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 482,
+        "fields": {
+            "name": "Костюм дл юбка пиджак",
+            "sku": "TANO573",
+            "slug": "tano573",
+            "description": "",
+            "price": 2499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 23
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 483,
+        "fields": {
+            "name": "Костюм брюки пиджак",
+            "sku": "TANOKBRP1983",
+            "slug": "tanokbrp1983",
+            "description": "",
+            "price": 2499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 23
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 484,
+        "fields": {
+            "name": "Костюм юбка пиджак",
+            "sku": "TANOKYP1983",
+            "slug": "tanokyp1983",
+            "description": "",
+            "price": 2399.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 23
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 485,
+        "fields": {
+            "name": "Костюм юбка жилетка трикотаж",
+            "sku": "TANOKYZ1873",
+            "slug": "tanokyz1873",
+            "description": "",
+            "price": 1799.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 23
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 486,
+        "fields": {
+            "name": "Костюм юбка жилетка на пуговицах классика",
+            "sku": "TANOKYZ2983",
+            "slug": "tanokyz2983",
+            "description": "",
+            "price": 1799.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 23
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 487,
+        "fields": {
+            "name": "Лонгслив",
+            "sku": "3061M",
+            "slug": "3061m",
+            "description": "",
+            "price": 999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 26
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 488,
+        "fields": {
+            "name": "Лонгслив",
+            "sku": "3061S",
+            "slug": "3061s",
+            "description": "",
+            "price": 999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 26
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 489,
+        "fields": {
+            "name": "Имитация серая",
+            "sku": "KOKO543",
+            "slug": "koko543",
+            "description": "",
+            "price": 1450.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 26
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 490,
+        "fields": {
+            "name": "Жилетка трикотажная",
+            "sku": "1121",
+            "slug": "1121",
+            "description": "",
+            "price": 999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 26
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 491,
+        "fields": {
+            "name": "Жилетка трикотажная",
+            "sku": "BZH041",
+            "slug": "bzh041",
+            "description": "",
+            "price": 999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 24
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 492,
+        "fields": {
+            "name": "Бомбер",
+            "sku": "NNB775",
+            "slug": "nnb775",
+            "description": "",
+            "price": 1799.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 24
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 493,
+        "fields": {
+            "name": "Кардиган на молнии",
+            "sku": "PP3605",
+            "slug": "pp3605",
+            "description": "",
+            "price": 1590.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 24
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 494,
+        "fields": {
+            "name": "Кардиган на пуговицах серый",
+            "sku": "PPM3539",
+            "slug": "ppm3539",
+            "description": "",
+            "price": 1390.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 24
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 495,
+        "fields": {
+            "name": "Кардиган на молнии серый",
+            "sku": "PPM3561",
+            "slug": "ppm3561",
+            "description": "",
+            "price": 1390.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 24
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 496,
+        "fields": {
+            "name": "Кардиган на пуговицах серый",
+            "sku": "PPM3626",
+            "slug": "ppm3626",
+            "description": "",
+            "price": 1390.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 24
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 497,
+        "fields": {
+            "name": "Жилетка костюмная",
+            "sku": "ZHISOVA1",
+            "slug": "zhisova1",
+            "description": "",
+            "price": 1790.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 24
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 498,
+        "fields": {
+            "name": "Жакет синий",
+            "sku": "10539",
+            "slug": "10539",
+            "description": "",
+            "price": 1900.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 24
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 499,
+        "fields": {
+            "name": "Сарафан",
+            "sku": "6232",
+            "slug": "6232",
+            "description": "",
+            "price": 1399.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 25
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 500,
+        "fields": {
+            "name": "Платье школьное",
+            "sku": "EKPL",
+            "slug": "ekpl",
+            "description": "",
+            "price": 1799.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 25
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 501,
+        "fields": {
+            "name": "Платье школьное",
+            "sku": "ERATEH111-S",
+            "slug": "erateh111-s",
+            "description": "",
+            "price": 1350.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 25
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 502,
+        "fields": {
+            "name": "Сарафан школьный",
+            "sku": "ERDS665",
+            "slug": "erds665",
+            "description": "",
+            "price": 1400.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 25
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 503,
+        "fields": {
+            "name": "Сарафан школьный",
+            "sku": "KARINKASAR",
+            "slug": "karinkasar",
+            "description": "",
+            "price": 1799.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 25
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 504,
+        "fields": {
+            "name": "Платье школьное",
+            "sku": "KLEVKPL296",
+            "slug": "klevkpl296",
+            "description": "",
+            "price": 1350.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 25
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 505,
+        "fields": {
+            "name": "Сарафан школьный",
+            "sku": "PODKIPLSH013",
+            "slug": "podkiplsh013",
+            "description": "",
+            "price": 990.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 25
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 506,
+        "fields": {
+            "name": "Сарафан школьный",
+            "sku": "PODS6742",
+            "slug": "pods6742",
+            "description": "",
+            "price": 1099.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 25
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 507,
+        "fields": {
+            "name": "Платье школьное",
+            "sku": "АСУ-031",
+            "slug": "031",
+            "description": "",
+            "price": 1499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 25
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 508,
+        "fields": {
+            "name": "Платье школьное",
+            "sku": "АСУ-035",
+            "slug": "035",
+            "description": "",
+            "price": 1559.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 25
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 509,
+        "fields": {
+            "name": "Юбка",
+            "sku": "AA1181",
+            "slug": "aa1181",
+            "description": "",
+            "price": 1250.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 510,
+        "fields": {
+            "name": "Юбка",
+            "sku": "ADELYAYUB1",
+            "slug": "adelyayub1",
+            "description": "",
+            "price": 590.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 511,
+        "fields": {
+            "name": "Юбка",
+            "sku": "B-6652",
+            "slug": "b-6652",
+            "description": "",
+            "price": 899.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 512,
+        "fields": {
+            "name": "Юбка",
+            "sku": "BSH053",
+            "slug": "bsh053",
+            "description": "",
+            "price": 999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 513,
+        "fields": {
+            "name": "Юбка",
+            "sku": "EKYB0266",
+            "slug": "ekyb0266",
+            "description": "",
+            "price": 1450.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 514,
+        "fields": {
+            "name": "Юбка",
+            "sku": "EKYB710",
+            "slug": "ekyb710",
+            "description": "",
+            "price": 1100.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 515,
+        "fields": {
+            "name": "Юбка",
+            "sku": "ELINAYUSH",
+            "slug": "elinayush",
+            "description": "",
+            "price": 1100.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 516,
+        "fields": {
+            "name": "Юбка",
+            "sku": "K&S305-1",
+            "slug": "ks305-1",
+            "description": "",
+            "price": 1550.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 517,
+        "fields": {
+            "name": "Юбка",
+            "sku": "KAIWOSI1352",
+            "slug": "kaiwosi1352",
+            "description": "",
+            "price": 1199.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 518,
+        "fields": {
+            "name": "Юбка",
+            "sku": "KAIWOSI301",
+            "slug": "kaiwosi301",
+            "description": "",
+            "price": 999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 519,
+        "fields": {
+            "name": "Юбка",
+            "sku": "KAIWOSI308",
+            "slug": "kaiwosi308",
+            "description": "",
+            "price": 999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 520,
+        "fields": {
+            "name": "Юбка",
+            "sku": "KAIWOSI309",
+            "slug": "kaiwosi309",
+            "description": "",
+            "price": 999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 521,
+        "fields": {
+            "name": "Юбка",
+            "sku": "KAIWOSI318",
+            "slug": "kaiwosi318",
+            "description": "",
+            "price": 599.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 522,
+        "fields": {
+            "name": "Юбка",
+            "sku": "KAIWOSI5151",
+            "slug": "kaiwosi5151",
+            "description": "",
+            "price": 1199.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 523,
+        "fields": {
+            "name": "Юбка",
+            "sku": "KAIWOSI5158",
+            "slug": "kaiwosi5158",
+            "description": "",
+            "price": 1199.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 524,
+        "fields": {
+            "name": "Юбка",
+            "sku": "MOFE4712",
+            "slug": "mofe4712",
+            "description": "",
+            "price": 899.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 525,
+        "fields": {
+            "name": "Юбка",
+            "sku": "MOFE4717",
+            "slug": "mofe4717",
+            "description": "",
+            "price": 950.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 526,
+        "fields": {
+            "name": "Юбка",
+            "sku": "MRY380",
+            "slug": "mry380",
+            "description": "",
+            "price": 1499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 527,
+        "fields": {
+            "name": "Юбка",
+            "sku": "MRY9217-6",
+            "slug": "mry9217-6",
+            "description": "",
+            "price": 1399.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 528,
+        "fields": {
+            "name": "Юбка",
+            "sku": "SOLIHA032",
+            "slug": "soliha032",
+            "description": "",
+            "price": 750.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 529,
+        "fields": {
+            "name": "Юбка",
+            "sku": "SOLIHA0773",
+            "slug": "soliha0773",
+            "description": "",
+            "price": 999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 530,
+        "fields": {
+            "name": "Юбка",
+            "sku": "STYLE857",
+            "slug": "style857",
+            "description": "",
+            "price": 1600.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 531,
+        "fields": {
+            "name": "Юбка",
+            "sku": "10548",
+            "slug": "10548",
+            "description": "",
+            "price": 999.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 532,
+        "fields": {
+            "name": "Юбка шорты",
+            "sku": "10549",
+            "slug": "10549",
+            "description": "",
+            "price": 1100.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 6
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 533,
+        "fields": {
+            "name": "Юбка металл нарядка",
+            "sku": "2017286",
+            "slug": "2017286",
+            "description": "",
+            "price": 1450.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 3
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 534,
+        "fields": {
+            "name": "Шорты джинсовые",
+            "sku": "3103",
+            "slug": "3103",
+            "description": "",
+            "price": 1699.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 3
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 535,
+        "fields": {
+            "name": "Юбка-шорты",
+            "sku": "DZ3740",
+            "slug": "dz3740",
+            "description": "",
+            "price": 1699.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 3
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 536,
+        "fields": {
+            "name": "Юбка-шорты",
+            "sku": "EK0526",
+            "slug": "ek0526",
+            "description": "",
+            "price": 1190.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 3
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 537,
+        "fields": {
+            "name": "Юбка-шорты",
+            "sku": "MX1355",
+            "slug": "mx1355",
+            "description": "",
+            "price": 1499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 3
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 538,
+        "fields": {
+            "name": "Бриджи джинсовые",
+            "sku": "XD901",
+            "slug": "xd901",
+            "description": "",
+            "price": 2250.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 3
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 539,
+        "fields": {
+            "name": "Шорты джинсовые",
+            "sku": "10195",
+            "slug": "10195",
+            "description": "",
+            "price": 1350.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 3
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 540,
+        "fields": {
+            "name": "Шорты джинсовые",
+            "sku": "10157",
+            "slug": "10157",
+            "description": "",
+            "price": 1299.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 3
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 541,
+        "fields": {
+            "name": "Шорты джинсовые",
+            "sku": "10092",
+            "slug": "10092",
+            "description": "",
+            "price": 1499.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 3
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 542,
+        "fields": {
+            "name": "Шорты джинсовые",
+            "sku": "10216",
+            "slug": "10216",
+            "description": "",
+            "price": 1199.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 3
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 543,
+        "fields": {
+            "name": "Шорты трикотаж серые",
+            "sku": "10545",
+            "slug": "10545",
+            "description": "",
+            "price": 890.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 3
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 544,
+        "fields": {
+            "name": "Юбка твидовая",
+            "sku": "10546",
+            "slug": "10546",
+            "description": "",
+            "price": 1100.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 3
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 545,
+        "fields": {
+            "name": "Юбка джинсовая длинная",
+            "sku": "10186",
+            "slug": "10186",
+            "description": "",
+            "price": 1799.0,
+            "discount": 0,
+            "is_available": true,
+            "season": "all season",
+            "category": 3
+        }
+    }
+]

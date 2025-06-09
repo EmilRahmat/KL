@@ -1,0 +1,362 @@
+[
+{
+  "model": "goods.categories",
+  "pk": 1,
+  "fields": {
+    "name": "Все товары",
+    "slug": "vse-tovary",
+    "parent": null
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 2,
+  "fields": {
+    "name": "Брюки и лосины",
+    "slug": "bryuki",
+    "parent": null
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 3,
+  "fields": {
+    "name": "Юбки шорты",
+    "slug": "yubki",
+    "parent": null
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 4,
+  "fields": {
+    "name": "Школа",
+    "slug": "shkola",
+    "parent": null
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 5,
+  "fields": {
+    "name": "Брюки Школа",
+    "slug": "bryuki-shkola",
+    "parent": 4
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 6,
+  "fields": {
+    "name": "Юбки Школа",
+    "slug": "yubki-shkola",
+    "parent": 4
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 7,
+  "fields": {
+    "name": "Аксессуары",
+    "slug": "futbolki-i-topy",
+    "parent": null
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 8,
+  "fields": {
+    "name": "Костюмы",
+    "slug": "rubashki",
+    "parent": null
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 9,
+  "fields": {
+    "name": "Сумки и Рюкзаки",
+    "slug": "sumki-i-ryukzaki",
+    "parent": 7
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 10,
+  "fields": {
+    "name": "Головные уборы",
+    "slug": "golovnye-ubory",
+    "parent": 7
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 11,
+  "fields": {
+    "name": "Украшения резинки",
+    "slug": "ukrasheniya-rezinki",
+    "parent": 7
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 12,
+  "fields": {
+    "name": "Перчатки варежки",
+    "slug": "perchatki-varezhki",
+    "parent": 7
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 13,
+  "fields": {
+    "name": "Носки колготки",
+    "slug": "noski-kolgotki",
+    "parent": 7
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 14,
+  "fields": {
+    "name": "Остальные аксессуары",
+    "slug": "ostalnye-aksessuary",
+    "parent": 7
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 15,
+  "fields": {
+    "name": "Толстовки худи лонгсливы водолазки",
+    "slug": "tolstovki-hudi-longslivy-vodolazki",
+    "parent": null
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 16,
+  "fields": {
+    "name": "Платья",
+    "slug": "platya",
+    "parent": null
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 17,
+  "fields": {
+    "name": "Обувь",
+    "slug": "obuv",
+    "parent": null
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 18,
+  "fields": {
+    "name": "Кроссовки",
+    "slug": "krossovki",
+    "parent": 17
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 19,
+  "fields": {
+    "name": "Босоножки сандали тапочки",
+    "slug": "bosonozhki-sandali-tapochki",
+    "parent": 17
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 20,
+  "fields": {
+    "name": "Сапоги ботинки дутики",
+    "slug": "sapogi-botinki-dutiki",
+    "parent": 17
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 21,
+  "fields": {
+    "name": "Лоферы туфли",
+    "slug": "lofery-tufli",
+    "parent": 17
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 22,
+  "fields": {
+    "name": "Блузки Школа",
+    "slug": "bluzki-shkola",
+    "parent": 4
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 23,
+  "fields": {
+    "name": "Костюмы Школа",
+    "slug": "kostyumy-shkola",
+    "parent": 4
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 24,
+  "fields": {
+    "name": "Пиджаки кардиганы жилеты Школа",
+    "slug": "pidzhaki-kardigany-zhilety-shkola",
+    "parent": 4
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 25,
+  "fields": {
+    "name": "Платья сарафаны Школа",
+    "slug": "platya-sarafany-shkola",
+    "parent": 4
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 26,
+  "fields": {
+    "name": "Лонгсливы имитации Школа",
+    "slug": "longslivy-imitacii-shkola",
+    "parent": 4
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 27,
+  "fields": {
+    "name": "Для физкультуры Школа",
+    "slug": "dlya-fizkultury-shkola",
+    "parent": 4
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 28,
+  "fields": {
+    "name": "Футболки майки топы",
+    "slug": "futbolki-majki-topy",
+    "parent": null
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 29,
+  "fields": {
+    "name": "Верхняя одежда",
+    "slug": "verhnyaya-odezhda",
+    "parent": null
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 30,
+  "fields": {
+    "name": "Куртки",
+    "slug": "kurtki",
+    "parent": 29
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 31,
+  "fields": {
+    "name": "Комбинезоны",
+    "slug": "kombinezony",
+    "parent": 29
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 32,
+  "fields": {
+    "name": "Жилеты",
+    "slug": "zhilety",
+    "parent": 29
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 33,
+  "fields": {
+    "name": "Плащи тренчи",
+    "slug": "plashi-trenchi",
+    "parent": 29
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 34,
+  "fields": {
+    "name": "Джемперы бомберы кардиганы зипки",
+    "slug": "dzhempery-bombery-kardigany-zipki",
+    "parent": null
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 35,
+  "fields": {
+    "name": "Джинсы джинсовки",
+    "slug": "dzhinsy-dzhinsovki",
+    "parent": null
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 36,
+  "fields": {
+    "name": "Рубашки блузки двойки имитации",
+    "slug": "rubashki-bluzki-dvojki-imitacii",
+    "parent": null
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 37,
+  "fields": {
+    "name": "Нижнее белье пижамы купальники",
+    "slug": "nizhnee-bele-pizhamy-kupalniki",
+    "parent": null
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 38,
+  "fields": {
+    "name": "Пижамы",
+    "slug": "pizhamy",
+    "parent": 37
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 39,
+  "fields": {
+    "name": "Нижнее белье",
+    "slug": "nizhnee-bele",
+    "parent": 37
+  }
+},
+{
+  "model": "goods.categories",
+  "pk": 40,
+  "fields": {
+    "name": "Купальники",
+    "slug": "kupalniki",
+    "parent": 37
+  }
+}
+]

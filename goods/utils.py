@@ -7,7 +7,7 @@ def update_stock_from_excel(file_path):
 
     for row in sheet.iter_rows(min_row=2, values_only=True):
         sku = row[0]  # SKU
-        quantity = row[4]  # Остаток
+        quantity = row[6]  # Остаток
 
         try:
             variation = Variation.objects.get(sku=sku)

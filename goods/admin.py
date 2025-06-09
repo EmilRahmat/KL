@@ -35,7 +35,7 @@ class CategoriesAdmin(admin.ModelAdmin):
 class ProductsAdmin(admin.ModelAdmin):
     list_display = ('pk', 'name', 'sku', 'price', 'get_variation_count', 'discount', 'get_photo', 'is_available')
     list_editable = ('price', 'discount', 'is_available')
-    prepopulated_fields = {'slug':('name',)}
+    prepopulated_fields = {'slug':('sku',)}
     list_filter = ('name', 'price')
     list_display_links = ('name',)
     inlines = (GalleryInline, VariationInline)
@@ -72,7 +72,7 @@ class VariationAdmin(admin.ModelAdmin):
         return custom_urls + urls
 
     def update_stock(self, request):
-        file_path = r'C:\Users\emill\Desktop\PTH Учусь\Дайбог создам сайт)\data.xlsx'
+        file_path = r'C:\Users\emill\Desktop\PTH Учусь\Дайбог создам сайт)\Обновление остатков товаров.xlsx'
         update_stock_from_excel(file_path)
         self.message_user(request, "Остатки обновлены из Excel", messages.SUCCESS)
         return HttpResponseRedirect("../")  # Возврат на страницу списка

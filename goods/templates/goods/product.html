@@ -31,10 +31,15 @@
           <select id="size-select" class="form-select" aria-label="Выбор размера">
             <option selected disabled>Выберите размер</option>
             {% for i in available_variations %}
-              <option value="{{ i.size }}" data-available="true" data-id="{{ i.id }}">{{ i.size }}</option>
+              <option value="{{ i.id }}" data-available="true" data-id="{{ i.id }}">
+                {{ i.size }}{% if i.producer_size %} - {{ i.producer_size }}{% endif %}{% if i.color %} - {{ i.get_color_display }}{% endif %}
+              </option>
             {% endfor %}
+    
             {% for i in unavailable_variations %}
-              <option value="{{ i.size }}" data-available="false">{{ i.size }} (ожидается)</option>
+              <option value="{{ i.id }}" data-available="false">
+                {{ i.size }}{% if i.producer_size %} - {{ i.producer_size }}{% endif %}{% if i.color %} - {{ i.get_color_display }}{% endif %} (ожидается)
+              </option>
             {% endfor %}
           </select>
         </div>
