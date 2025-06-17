@@ -5,7 +5,7 @@ from django.utils.safestring import mark_safe
 from django.urls import path
 from django.http import HttpResponseRedirect
 from django.contrib import messages
-from .utils import update_stock_from_excel  # Импортируем функцию
+from .utils import update_stock_from_excel, update_stock_by_receipts  # Импортируем функцию
 
 
 
@@ -38,6 +38,7 @@ class ProductsAdmin(admin.ModelAdmin):
     prepopulated_fields = {'slug':('sku',)}
     list_filter = ('name', 'price')
     list_display_links = ('name',)
+    search_fields = ('name', 'sku', 'description')
     inlines = (GalleryInline, VariationInline)
     
     def get_variation_count(self, object):
@@ -57,25 +58,32 @@ class ProductsAdmin(admin.ModelAdmin):
     
 @admin.register(Variation)
 class VariationAdmin(admin.ModelAdmin):
-    list_display = ('product', 'sku', 'size','producer_size', 'quantity', 'is_active')
+    list_display = ('product', 'sku', 'size', 'producer_size', 'quantity', 'is_active')
     list_editable = ('is_active', 'quantity', 'size')
     list_filter = ('product', 'size', 'producer_size')
     search_fields = ('product__product_name',)
-    prepopulated_fields = {'sku':('sku',)}
-    change_list_template = "admin/variation_changelist.html"  # Кастомный шаблон
+    prepopulated_fields = {'sku': ('sku',)}
+    change_list_template = "admin/variation_changelist.html"
 
     def get_urls(self):
         urls = super().get_urls()
         custom_urls = [
-            path('update-stock/', self.admin_site.admin_view(self.update_stock))
+            path('update-stock/', self.admin_site.admin_view(self.update_stock), name='goods_variation_update_stock'),
+            path('update-stock-receipts/', self.admin_site.admin_view(self.update_stock_by_receipts), name='goods_variation_update_stock_receipts'),
         ]
         return custom_urls + urls
+
 
     def update_stock(self, request):
         file_path = r'C:\Users\emill\Desktop\PTH Учусь\Дайбог создам сайт)\Обновление остатков товаров.xlsx'
         update_stock_from_excel(file_path)
         self.message_user(request, "Остатки обновлены из Excel", messages.SUCCESS)
-        return HttpResponseRedirect("../")  # Возврат на страницу списка
+        return HttpResponseRedirect("../")
 
+    def update_stock_by_receipts(self, request):
+        file_path = r'C:\Users\emill\OneDrive\Резервная копия\Продажи товаров.xlsx'
+        update_stock_by_receipts(file_path)
+        self.message_user(request, "Остатки обновлены по чекам", messages.SUCCESS)
+        return HttpResponseRedirect("../")
     
 admin.site.register(Gallery)

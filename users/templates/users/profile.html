@@ -1,27 +1,64 @@
 {% extends 'main/base.html' %}
 {% block content %}
-<div class="card p-4 shadow-sm">
-    <h4 class="mb-3">Ваш профиль</h4>
-{% if orders %}
-    <ul>
-        {% for order in orders %}
-            <li class="mb-2">
-                <strong>Заказ №{{ order.id }}</strong> — {{ order.get_status_display }} — {{ order.created_at|date:"d.m.Y H:i" }}
-                <ul>
-                    {% for item in order.items.all %}
-                        <li>{{ item.product.name }} ({{ item.variation.size }}) — {{ item.quantity }} шт.</li>
-                    {% endfor %}
+<div class="container py-4">
+  <div class="row">
+    <!-- Левое меню -->
+    <div class="col-md-3 mb-4">
+      <div class="list-group shadow-sm">
+        <span class="list-group-item list-group-item-action active">
+          Личный кабинет
+        </span>
+        <a href="#" class="list-group-item list-group-item-action disabled">
+          Профиль
+        </a>
+        <a href="#" class="list-group-item list-group-item-action disabled">
+          Сменить пароль
+        </a>
+        <a href="{% url 'users:logout' %}" class="list-group-item list-group-item-action text-danger">
+          Выйти
+        </a>
+      </div>
+    </div>
+
+    <!-- Основной контент -->
+    <div class="col-md-9">
+      <div class="card shadow-sm mb-4">
+        <div class="card-body">
+          <h5 class="card-title mb-3">Личная информация</h5>
+          <p><strong>Телефон:</strong> {{ user.phone_number }}</p>
+          {% comment %} <p><strong>Имя пользователя:</strong> {{ user.get_full_name|default:user.username }}</p> {% endcomment %}
+          <a href="#" class="btn btn-outline-secondary btn-sm disabled">Редактировать профиль</a>
+        </div>
+      </div>
+
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title mb-3">Ваши заказы</h5>
+
+          {% if orders %}
+            {% for order in orders %}
+              <div class="border rounded p-3 mb-3">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <strong>Заказ №{{ order.id }}</strong>
+                  <span class="badge bg-secondary">{{ order.get_status_display }}</span>
+                </div>
+                <p class="text-muted mb-1">Оформлен: {{ order.created_at|date:"d.m.Y H:i" }}</p>
+                <ul class="list-unstyled small mb-2">
+                  {% for item in order.items.all %}
+                    <li>— {{ item.product.name }} ({{ item.variation.size }}) × {{ item.quantity }}</li>
+                  {% endfor %}
                 </ul>
                 {% if order.status in 'pending waiting_payment processing' %}
-                    <a href="{% url 'orders:cancel_order' order.id %}" class="btn btn-sm btn-danger mt-1">Отменить заказ</a>
+                  <a href="{% url 'orders:cancel_order' order.id %}" class="btn btn-sm btn-outline-danger">Отменить заказ</a>
                 {% endif %}
-            </li>
-        {% endfor %}
-    </ul>
-{% else %}
-    <p>У вас пока нет заказов.</p>
-{% endif %}
-    <p><strong>Номер телефона:</strong> {{ user.phone_number }}</p>
-    <a href="{% url 'users:logout' %}" class="btn btn-outline-danger mt-3">Выйти</a>
+              </div>
+            {% endfor %}
+          {% else %}
+            <p>У вас пока нет заказов.</p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
   </div>
+</div>
 {% endblock %}

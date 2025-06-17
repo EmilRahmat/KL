@@ -53,6 +53,11 @@ class Products(models.Model):
         verbose_name_plural = 'Продукты'
         ordering = ("id",)
 
+    def update_availability(self):
+        has_stock = self.variations.filter(quantity__gt=0, is_active=True).exists()
+        self.is_available = has_stock
+        self.save(update_fields=["is_available"])
+    
     def __str__(self):
         return self.name
 
@@ -61,6 +66,18 @@ class Products(models.Model):
             self.slug = str(self.sku)
         super().save(*args, **kwargs)
 
+    def get_colors_display(self):
+        from django.db.models import F
+
+        colors = self.variations \
+            .filter(color__isnull=False) \
+            .values_list('color', flat=True) \
+            .distinct()
+
+        # Преобразуем slug цвета в человекочитаемый (из choices)
+        color_choices = dict(Variation._meta.get_field('color').choices)
+        return ', '.join([color_choices.get(color, color) for color in colors if color])
+    
     def get_all_variation(self):
         return self.variations.all()
 
@@ -80,20 +97,26 @@ class Products(models.Model):
         if self.discount:
             return round(self.price - self.price * self.discount / 100, 2)
         return self.price
+    
+     
 
     
-
+ 
 class Variation(models.Model):
     product = models.ForeignKey('Products', on_delete=models.CASCADE, related_name='variations')
     sku = models.CharField(max_length=150, unique=True, verbose_name="Акртикул вариации")
-    size = models.CharField(max_length=20, choices=[('116-122', '116-122'), ('122-128', '122-128'), ('128-134', '128-134'), ('134-140', '134-140'), ('140-146', '140-146'), ('146-152', '146-152'), ('152-158', '152-158'), ('158-164', '158-164'), ('164-170', '164-170'), ('170-176', '170-176'), ('176-182', '176-182'), ('30 обувь', '30 обувь'), ('31 обувь', '31 обувь'), ('32 обувь', '32 обувь'), ('33 обувь', '33 обувь'), ('34 обувь', '34 обувь'), ('35 обувь', '35 обувь'), ('36 обувь', '36 обувь'), ('37 обувь', '37 обувь'), ('38 обувь', '38 обувь'), ('39 обувь', '39 обувь'), ('40 обувь', '40 обувь'),], blank=True, null=True)
-    color = models.CharField(max_length=20, choices=[('black', 'черный'), ('white', 'белый'), ('red', 'красный'), ('beige', 'бежевый'), ('khaki', 'хаки'), ('ping', 'розовый'), ('vio;', 'фиолетовый'), ('blue', 'синий'), ('green', 'зеленый'), ('yellow', 'желтый'), ('grey', 'серый'), ('brown', 'коричневый'), ('burgundy', 'бордовый'), ], blank=True, null=True)
+    size = models.CharField(max_length=20, choices=[('116-122', '116-122'), ('122-128', '122-128'), ('128-134', '128-134'), ('134-140', '134-140'), ('140-146', '140-146'), ('146-152', '146-152'), ('152-158', '152-158'), ('158-164', '158-164'), ('164-170', '164-170'), ('170-176', '170-176'), ('176-182', '176-182'), ('146-164', '146-164'), ('158-176', '158-170'), ('30 обувь', '30 обувь'), ('31 обувь', '31 обувь'), ('32 обувь', '32 обувь'), ('33 обувь', '33 обувь'), ('34 обувь', '34 обувь'), ('35 обувь', '35 обувь'), ('36 обувь', '36 обувь'), ('37 обувь', '37 обувь'), ('38 обувь', '38 обувь'), ('39 обувь', '39 обувь'), ('40 обувь', '40 обувь'),], blank=True, null=True)
+    color = models.CharField(max_length=20, choices=[('black', 'черный'), ('white', 'белый'), ('red', 'красный'), ('beige', 'бежевый'), ('khaki', 'хаки'), ('ping', 'розовый'), ('viol', 'фиолетовый'), ('blue', 'синий'), ('green', 'зеленый'), ('yellow', 'желтый'), ('grey', 'серый'), ('brown', 'коричневый'), ('burgundy', 'бордовый'), ], blank=True, null=True)
     producer_size = models.CharField(max_length=20, blank=True, null=True)
     quantity = models.PositiveIntegerField(default=0)
     is_active = models.BooleanField(default=True)
 
     def __str__(self):
         return f'{self.size} - {self.producer_size}'
+    
+    def save(self, *args, **kwargs):
+        super().save(*args, **kwargs)
+        self.product.update_availability()
     
     class Meta:
         verbose_name = 'Вариация'
@@ -109,3 +132,11 @@ class Gallery(models.Model):
     class Meta:
         verbose_name = 'Изображение'
         verbose_name_plural = 'Фотогалерея товаров'
+
+
+class ProcessedReceipt(models.Model):
+    receipt_id = models.CharField(max_length=255, unique=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.receipt_id

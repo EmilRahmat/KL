@@ -6,11 +6,21 @@ from django.urls import path
 from django.contrib.auth.decorators import login_required
 from .utils import get_or_create_cart
 from .models import Cart, CartItem
+from django.db.models import Sum
+from django.http import JsonResponse
+from django.views.decorators.http import require_POST
 
 @login_required
+@require_POST
 def add_to_cart_view(request, product_id):
+    if request.headers.get('x-requested-with') != 'XMLHttpRequest':
+        return JsonResponse({'success': False, 'error': 'Только AJAX-запросы'}, status=400)
+
     product = get_object_or_404(Products, id=product_id)
     variation_id = request.POST.get('variation_id')
+    if not variation_id:
+        return JsonResponse({'success': False, 'error': 'variation_id не передан'}, status=400)
+
     variation = get_object_or_404(Variation, id=variation_id)
 
     cart = get_or_create_cart(request.user)
@@ -18,7 +28,10 @@ def add_to_cart_view(request, product_id):
     if not created:
         item.quantity += 1
     item.save()
-    return redirect('cart:cart_detail')
+
+    cart_item_count = cart.items.aggregate(total=Sum('quantity'))['total'] or 0
+
+    return JsonResponse({'success': True, 'cart_item_count': cart_item_count})
 
 
 @login_required

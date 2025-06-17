@@ -1,5 +1,4 @@
-from django.core.paginator import Paginator
-from django.shortcuts import get_object_or_404, render
+
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.views.generic import DetailView, ListView
@@ -34,6 +33,11 @@ class CatalogView(ListView):
         if max_price:
             queryset = queryset.filter(price__lte=max_price)
 
+        # Фильтрация по сезону
+        season_filter = self.request.GET.get('season')
+        if season_filter:
+            queryset = queryset.filter(season=season_filter)
+        
         # Фильтрация по акции
         if self.request.GET.get('on_sale'):
             queryset = queryset.filter(discount__gt=0)
@@ -55,7 +59,10 @@ class CatalogView(ListView):
 
         # Выбранные размеры для чекбоксов
         context['selected_sizes'] = self.request.GET.getlist('size')
-
+        
+        context['season_choices'] = Products._meta.get_field('season').choices
+        context['selected_season'] = self.request.GET.get('season')
+        context['season_choices_dict'] = dict(Products._meta.get_field('season').choices) 
         return context   
 
 
