@@ -2,6 +2,7 @@ from django.shortcuts import render
 from goods.models import Products
 from django.db.models import Q
 from rapidfuzz import fuzz
+from django.core.paginator import Paginator
 
 def search_view(request):
     COLOR_DICT = {
@@ -45,7 +46,11 @@ def search_view(request):
             ):
                 results.append(product)
 
+    page = request.GET.get('page', 1)
+    paginator = Paginator(results, 12)  # по 12 товаров на страницу
+    page_obj = paginator.get_page(page)
+
     return render(request, 'search/results.html', {
         'query': query,
-        'results': results,
+        'results': page_obj,
     })

@@ -76,7 +76,7 @@ class ProductView(DetailView):
         context = super().get_context_data(**kwargs)
         product = self.object
 
-        context["ext_product"] = Products.objects.exclude(slug=self.kwargs['product_slug']).order_by('?')[:4]
+        context["ext_product"] = Products.objects.exclude(slug=self.kwargs['product_slug']).order_by('?')[:15]
         
         context['available_variations'] = product.variations.filter(quantity__gt=0)
         context['unavailable_variations'] = product.variations.filter(quantity=0)

@@ -5,7 +5,7 @@ from django.db import models
 from django.templatetags.i18n import language
 from django.urls import reverse
 from django.utils.text import slugify
-
+from django.utils import timezone
 
 class Categories(models.Model):
     objects = models.Manager()
@@ -44,6 +44,7 @@ class Products(models.Model):
     )
     price = models.DecimalField(default=0.00, max_digits=7, decimal_places=2, verbose_name='Цена')
     discount = models.DecimalField(default=0.00, max_digits=4, decimal_places=2, verbose_name='Скидка в %')
+    created_at = models.DateTimeField(default=timezone.now)
     is_available = models.BooleanField(default=True, verbose_name='Доступен')
     category = models.ForeignKey(to=Categories, on_delete=models.CASCADE, verbose_name='Категория', related_name='category')
 

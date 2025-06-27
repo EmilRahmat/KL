@@ -1,6 +1,7 @@
 import openpyxl
-from goods.models import Variation, ProcessedReceipt
+from goods.models import Variation, ProcessedReceipt, Products, Categories
 from django.db import transaction
+import logging
 
 # Обновление по остаткам (старый способ)
 def update_stock_from_excel(file_path):
@@ -81,3 +82,129 @@ def update_stock_by_receipts(file_path):
         else:
             print(f'🔁 Последний чек {receipt_id} уже обработан — пропускаем.')
 
+logger = logging.getLogger(__name__)
+
+SEASON_MAPPING = {
+    'all season': 'all_season',
+    'осень-зима': 'autumn_winter',
+    'весна-лето': 'spring_summer',
+}
+
+COLOR_MAPPING = {
+    'белый': 'white',
+    'черный': 'black',
+    'красный': 'red',
+    'бежевый': 'beige',
+    'хаки': 'khaki',
+    'розовый': 'ping',
+    'фиолетовый': 'viol',
+    'синий': 'blue',
+    'зеленый': 'green',
+    'желтый': 'yellow',
+    'серый': 'grey',
+    'коричневый': 'brown',
+    'бордовый': 'burgundy',
+}
+
+def import_products_from_excel(filepath):
+    wb = openpyxl.load_workbook(filepath)
+    sheet = wb.active
+
+    logs = []
+
+    SEASON_MAPPING = {
+        'all season': 'all_season',
+        'spring summer': 'spring_summer',
+        'autumn winter': 'autumn_winter',
+        'весна-лето': 'spring_summer',
+        'осень-зима': 'autumn_winter',
+        'на любой сезон': 'all_season',
+    }
+
+    COLOR_MAPPING = {
+        'белый': 'white',
+        'черный': 'black',
+        'синий': 'blue',
+        'красный': 'red',
+        'бежевый': 'beige',
+        'хаки': 'khaki',
+        'розовый': 'pink',
+        'фиолетовый': 'violet',
+        'зеленый': 'green',
+        'желтый': 'yellow',
+        'серый': 'grey',
+        'коричневый': 'brown',
+        'бордовый': 'burgundy',
+    }
+
+    for row in sheet.iter_rows(min_row=2, values_only=True):
+        if len(row) < 10:
+            continue
+
+        product_sku, name, price, category_id, var_sku, size, color, prod_size, qty, season, *_ = row
+
+        if not product_sku or not var_sku:
+            continue
+
+        product_sku = str(product_sku).strip().replace(' ', '')
+        var_sku = str(var_sku).strip().replace(' ', '')
+        price = float(str(price).replace(' ', '').replace(',', '.'))
+        qty = int(qty) if qty else 0
+
+        season = str(season).strip().lower().replace('-', ' ')
+        season = SEASON_MAPPING.get(season, 'all_season')
+
+        color = str(color).strip().lower()
+        color = COLOR_MAPPING.get(color, None)
+
+        category = Categories.objects.filter(id=category_id).first()
+        if not category:
+            logs.append(f'⛔ Категория ID={category_id} не найдена. Пропущен SKU={product_sku}')
+            continue
+
+        product, created = Products.objects.get_or_create(
+            sku=product_sku,
+            defaults={
+                'name': name,
+                'price': price,
+                'category': category,
+                'season': season,
+            }
+        )
+
+        if not created:
+            updates = []
+            if product.name != name:
+                updates.append(f"название '{product.name}' → '{name}'")
+                product.name = name
+            if product.price != price:
+                updates.append(f"цена {product.price} → {price}")
+                product.price = price
+            if product.category_id != category.id:
+                updates.append(f"категория ID {product.category_id} → {category.id}")
+                product.category = category
+            if product.season != season:
+                updates.append(f"сезон {product.season} → {season}")
+                product.season = season
+            if updates:
+                product.save()
+                logs.append(f"🔄 Обновлён товар [{product.sku}]: " + "; ".join(updates))
+
+        variation, v_created = Variation.objects.update_or_create(
+            sku=var_sku,
+            defaults={
+                'product': product,
+                'size': size,
+                'color': color,
+                'producer_size': prod_size,
+                'quantity': qty,
+                'is_active': True
+            }
+        )
+
+        if v_created:
+            logs.append(f"➕ Создана вариация {var_sku}")
+        else:
+            logs.append(f"🔁 Обновлена вариация {var_sku}")
+
+    return logs

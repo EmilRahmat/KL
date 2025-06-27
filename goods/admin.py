@@ -5,9 +5,12 @@ from django.utils.safestring import mark_safe
 from django.urls import path
 from django.http import HttpResponseRedirect
 from django.contrib import messages
-from .utils import update_stock_from_excel, update_stock_by_receipts  # Импортируем функцию
-
-
+from .utils import update_stock_from_excel, update_stock_by_receipts, import_products_from_excel  # Импортируем функцию
+from django.shortcuts import render
+from django.core.files.storage import default_storage
+import os
+from .admin_forms import ExcelUploadForm
+from django import forms
 
 class GalleryInline(admin.TabularInline):
     fk_name = 'product'
@@ -33,13 +36,50 @@ class CategoriesAdmin(admin.ModelAdmin):
     
 @admin.register(Products)
 class ProductsAdmin(admin.ModelAdmin):
-    list_display = ('pk', 'name', 'sku', 'price', 'get_variation_count', 'discount', 'get_photo', 'is_available')
+    list_display = ('pk', 'name', 'sku', 'price', 'get_variation_count', 'discount', 'get_photo', 'created_at', 'is_available')
     list_editable = ('price', 'discount', 'is_available')
     prepopulated_fields = {'slug':('sku',)}
-    list_filter = ('name', 'price')
+    list_filter = ('category', 'price')
     list_display_links = ('name',)
     search_fields = ('name', 'sku', 'description')
     inlines = (GalleryInline, VariationInline)
+    change_list_template = "admin/products_changelist.html"
+    
+    def get_urls(self):
+        urls = super().get_urls()
+        custom = [
+            path('import-products/', self.admin_site.admin_view(self.import_products), name='import-products'),
+        ]
+        return custom + urls
+
+    def import_products(self, request):
+        # 1) При POST — обрабатываем файл
+        if request.method == 'POST':
+            form = ExcelUploadForm(request.POST, request.FILES)
+            if form.is_valid():
+                # Сохраняем загруженный файл во временное хранилище
+                tmp_path = default_storage.save('tmp/products.xlsx', request.FILES['excel_file'])
+                tmp_file = os.path.join(default_storage.location, tmp_path)
+
+                # Вызываем утилиту импорта
+                logs = import_products_from_excel(tmp_file)
+
+                # Выводим сообщения в админке
+                for line in logs:
+                    self.message_user(request, line)
+
+                # После импорта — перенаправляем обратно в changelist
+                return HttpResponseRedirect("../")
+        else:
+            # 2) При GET — показываем форму
+            form = ExcelUploadForm()
+
+        # Рендерим шаблон с формой
+        context = dict(
+            self.admin_site.each_context(request),
+            form=form,
+        )
+        return render(request, "admin/import_products.html", context)
     
     def get_variation_count(self, object):
         if object.variations:

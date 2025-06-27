@@ -196,7 +196,7 @@
                 <ul class="list-unstyled collapse" id="sizes-{{ product.id }}">
                   {% for var in product.get_all_variation %}
                     {% if var.quantity > 0 %}
-                      <li><small>{{ var.size }} – в наличии</small></li>
+                      <li><small>{{ var.size }}/{{ var.producer_size }} – в наличии</small></li>
                     {% endif %}
                   {% endfor %}
                 </ul>
